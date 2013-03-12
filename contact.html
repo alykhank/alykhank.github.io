@@ -1,45 +1,56 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8">
+	<meta name="author" content="Alykhan Kanji">
 	<meta name="description" content="The website of Alykhan Kanji. See Alykhan's social media profiles and professional portfolio.">
-	<title>Alykhan Kanji &mdash; Contact</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" type="image/png" href="images/a.png">
-	<link rel="apple-touch-icon-precomposed" type="image/png" href="images/apple-touch-icon.png">
-	<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'>
-<!--	Google Analytics Tracking Code-->
-	<script type="text/javascript">
-	
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Alykhan">
+	<title>Contact &#8226; Alykhan Kanji</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="icon" type="image/png" href="img/alykhank.png">
+	<link rel="apple-touch-icon-precomposed" type="image/png" href="img/alykhank.png">
+	<!-- start Google Analytics --><script type="text/javascript">
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-20277066-2']);
 	  _gaq.push(['_setDomainName', 'alykhan.com']);
 	  _gaq.push(['_trackPageview']);
-	
 	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
-	
-	</script>
+	</script><!-- end Google Analytics -->
 </head>
 <body>
-    <hr id="topline" />
-    <div id="header">
-        <a href="/" class="nav" class="selected"><img src="images/badges/lloyd/website-16x16.png" alt="Home" class="navicon"/> Home</a>
-
-        <a href="portfolio.html" class="nav"><img src="images/badges/king/mobileme_16.png" alt="Portfolio" class="navicon"/> Portfolio</a>
-
-        <a href="ipad.html" class="nav"><img src="images/badges/king/apple_16.png" alt="iPad" class="navicon"/> iPad</a>
-
-        <a href="contact.html" class="nav"><img src="images/badges/lloyd/email-16x16.png" alt="Contact" class="navicon"/> Contact</a>
-    </div>
-	<hr class="separator" />
-	<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dFZsWlNwM243VVR5cXRxT1dRZWE2YUE6MQ" width="620" height="800" frameborder="0" marginheight="0" marginwidth="0" id="contactform">Loading...</iframe>
-	<hr class="separator"/>
-	<div id="footer">&copy; 2009&ndash;<script type="text/javascript">var d=new Date();document.write(d.getFullYear());</script> Alykhan Kanji. All Rights Reserved.</div>
+	<div class="container">
+		<br>
+		<div class="navbar">
+			<div class="navbar-inner">
+					<a class="brand" href="/">Alykhan Kanji</a>
+					<ul class="nav">
+						<li><a href="/"><i class="icon-home"></i> Home</a></li>
+						<li><a href="portfolio.html"><i class="icon-folder-close"></i> Portfolio</a></li>
+						<li class="active"><a href="contact.html"><i class="icon-user"></i> Contact</a></li>
+					</ul>
+			</div>
+		</div><!-- navbar -->
+		<br>
+		<div class="contact">
+			<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dFZsWlNwM243VVR5cXRxT1dRZWE2YUE6MQ" width="620" height="800" frameborder="0" marginheight="0" marginwidth="0" id="contactform">Loading...</iframe>
+		</div>
+		<hr>
+		<div class="muted text-center">
+			&copy; 2009 &ndash; <script type="text/javascript">var d=new Date();document.write(d.getFullYear());</script> Alykhan Kanji. All Rights Reserved.
+		</div>
+		<br>
+	</div><!-- container -->
 </body>
 </html>
