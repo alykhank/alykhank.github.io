@@ -31,6 +31,15 @@
 	font-weight: bolder;
 }
 
+.thumbnail {
+	color: #000;
+}
+
+.thumbnail:hover {
+	color: #000;
+	text-decoration: none;
+}
+
 .contact {
 	width: 620px;
 	margin: auto;
