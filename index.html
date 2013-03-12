@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="author" content="Alykhan Kanji">
@@ -9,10 +9,14 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="apple-mobile-web-app-title" content="Alykhan">
 	<title>Alykhan Kanji</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-	<link rel="icon" type="image/png" href="images/a.png">
-	<link rel="apple-touch-icon-precomposed" type="image/png" href="images/apple-touch-icon.png">
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="icon" type="image/png" href="img/alykhank.png">
+	<link rel="apple-touch-icon-precomposed" type="image/png" href="img/alykhank.png">
 	<!-- start Google Analytics --><script type="text/javascript">
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-20277066-2']);
@@ -26,66 +30,46 @@
 	</script><!-- end Google Analytics -->
 </head>
 <body>
-	<div id="header">
-		<a href="/" class="nav" class="selected"><img src="images/badges/lloyd/website-16x16.png" alt="Home" class="navicon"/> Home</a>
-
-		<a href="portfolio.html" class="nav"><img src="images/badges/king/mobileme_16.png" alt="Portfolio" class="navicon"/> Portfolio</a>
-
-		<a href="ipad.html" class="nav"><img src="images/badges/king/apple_16.png" alt="iPad" class="navicon"/> iPad</a>
-
-		<a href="contact.html" class="nav"><img src="images/badges/lloyd/email-16x16.png" alt="Contact" class="navicon"/> Contact</a>
-	</div>
-	<hr class="separator" />
-	
-	<h1 class="profile" id="name">Alykhan Kanji</h1>
-	<a class="profile" id="resume" href="Alykhan Kanji.html">R&eacute;sum&eacute;</a>
-	<br>
-	
-	<img src="images/a.png" id="avatar" alt="Avatar" />
-	<div id="bio">Currently pursuing a degree in Software Engineering at University of Waterloo. Self-motivated learner with over five years of programming, web development, and graphic design experience. Has practical knowledge in creating websites for non-profit organizations. Passionate about experimenting with new languages and platforms. Is interested in object-oriented programming and mobile development.</div>
-	<div class="clear"></div>
-	<br>
-	<div id="social-media">
-		<a href="http://ca.linkedin.com/in/alykhankanji" target="_blank"><img src="images/badges/lloyd/linkedin-32x32.png" alt="Visit Alykhan Kanji on LinkedIn" id="linkedin" class="social" /></a>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="http://github.com/alykhank" target="_blank"><img src="images/badges/lloyd/github-32x32.png" alt="Visit Alykhan Kanji on GitHub" id="github" class="social" /></a>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="https://twitter.com/alykhank" target="_blank"><img src="images/badges/lloyd/twitter-32x32.png" alt="Visit Alykhan Kanji on Twitter" id="twitter" class="social" /></a>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="http://lanyrd.com/profile/alykhank/" target="_blank"><img src="images/badges/lloyd/lanyrd-32x32.png" alt="Visit Alykhan Kanji on Lanyrd" id="lanyrd" class="social" /></a>
+	<div class="container">
 		<br>
-		<a href="http://about.me/alykhank" target="_blank"><img src="images/badges/lloyd/aboutdotme-32x32.png" alt="Visit Alykhan Kanji on About.me" id="aboutdotme" class="social" /></a>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="http://stackoverflow.com/users/1229280/alykhank" target="_blank"><img src="images/badges/lloyd/stackoverflow-32x32.png" alt="Visit Alykhan Kanji on Stack Overflow" id="stackoverflow" class="social" /></a>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="http://www.flickr.com/photos/alykhankanji" target="_blank"><img src="images/badges/lloyd/flickr-32x32.png" alt="Visit Alykhan Kanji on Flickr" id="flickr" class="social" /></a>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="http://vimeo.com/alykhan" target="_blank"><img src="images/badges/lloyd/vimeo-32x32.png" alt="Visit Alykhan Kanji on Vimeo" id="vimeo" class="social" /></a>
+		<div class="navbar">
+			<div class="navbar-inner">
+					<a class="brand" href="/">Alykhan Kanji</a>
+					<ul class="nav">
+						<li class="active"><a href="/"><i class="icon-home"></i> Home</a></li>
+						<li><a href="portfolio.html"><i class="icon-folder-close"></i> Portfolio</a></li>
+						<li><a href="contact.html"><i class="icon-user"></i> Contact</a></li>
+					</ul>
+			</div>
+		</div><!-- navbar -->
 		<br>
-		Check out my social media profiles
-		<h2>OR</h2>
-	</div>
-	<div id="devices">
-		<div id="ios">
-			<a href="http://homescreen.me/alykhank/iphone" class="homescreen" cl target="_blank">
-				<div id="iphone">
-					<img src="images/iphonesil.png" class="bottom" alt="iPhone" />
-					<img src="images/iPhone4Graphic.png" class="top" alt="iPhone" />
-				</div>
-			</a>
-			<a href="http://homescreen.me/alykhank/ipad" class="homescreen" target="_blank">
-				<div id="ipad">
-					<img src="images/ipadsil.png" class="bottom" alt="iPad" />
-					<img src="images/iPadGraphic.png" class="top" alt="iPad" />
-				</div>
-			</a>
+		<h1 class="name text-center">Alykhan Kanji</h1>
+		<br><br>
+		<a class="resume btn btn-info btn-large btn-block" href="resume.html">R&eacute;sum&eacute;</a>
+		<br><br>
+		<div class="media well well-large">
+				<div class="pull-left"><img src="img/alykhank.png" alt="Avatar" class="media-object"></div>
+				<div class="media-body lead">Currently pursuing a degree in Software Engineering at University of Waterloo. Self-motivated learner with over five years of programming, web development, and graphic design experience. Has practical knowledge in creating websites for non-profit organizations. Passionate about experimenting with new languages and platforms. Is interested in object-oriented programming and mobile development.</div>
+		</div><!-- media -->
+		<br>
+		<div class="socialbuttons">
+			<a href="http://ca.linkedin.com/in/alykhankanji" target="_blank"><img src="img/badges/linkedin-32x32.png" alt="Visit Alykhan Kanji on LinkedIn"></a>
+			<a href="http://github.com/alykhank" target="_blank"><img src="img/badges/github-32x32.png" alt="Visit Alykhan Kanji on GitHub"></a>
+			<a href="http://twitter.com/alykhank" target="_blank"><img src="img/badges/twitter-32x32.png" alt="Visit Alykhan Kanji on Twitter"></a>
+			<a href="http://lanyrd.com/profile/alykhank/" target="_blank"><img src="img/badges/lanyrd-32x32.png" alt="Visit Alykhan Kanji on Lanyrd"></a>
+			<br><br>
+			<a href="http://about.me/alykhank" target="_blank"><img src="img/badges/aboutdotme-32x32.png" alt="Visit Alykhan Kanji on About.me"></a>
+			<a href="http://stackoverflow.com/users/1229280/alykhank" target="_blank"><img src="img/badges/stackoverflow-32x32.png" alt="Visit Alykhan Kanji on Stack Overflow"></a>
+			<a href="http://flickr.com/photos/alykhankanji" target="_blank"><img src="img/badges/flickr-32x32.png" alt="Visit Alykhan Kanji on Flickr"></a>
+			<a href="http://vimeo.com/alykhan" target="_blank"><img src="img/badges/vimeo-32x32.png" alt="Visit Alykhan Kanji on Vimeo"></a>
 		</div>
-		</a>
 		<br>
-		Take a peek at my homescreen
-	</div>
-	<br>
-	<hr class="separator"/>
-	<div id="footer">&copy; 2009&ndash;<script type="text/javascript">var d=new Date();document.write(d.getFullYear());</script> Alykhan Kanji. All Rights Reserved.<br>Social icons by <a href="http://www.komodomedia.com/blog/2009/06/social-network-icon-pack/">Rogie King</a> &amp; <a href="http://paulrobertlloyd.com/2009/06/social_media_icons">Paul Lloyd</a></div>
+		<p class="description text-center">Check out my social media profiles</p>
+		<hr>
+		<div class="muted text-center">
+			&copy; 2009 &ndash; <script type="text/javascript">var d=new Date();document.write(d.getFullYear());</script> Alykhan Kanji. All Rights Reserved.
+		</div>
+		<br>
+	</div><!-- container -->
 </body>
 </html>
