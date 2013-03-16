@@ -9,6 +9,12 @@
 	margin: auto;
 }
 
+.avatar-phone {
+	height: 128px;
+	width: 128px;
+	margin: auto;
+}
+
 .socialbuttons {
 	width: 14em;
 	margin: auto;
