@@ -1,0 +1,267 @@
+@font-face {
+	font-family: 'social-icon-font';
+	src: url('../font/social-icon-font.eot');
+	src: url('../font/social-icon-font.eot?#iefix') format('embedded-opentype'),
+			url('../font/social-icon-font.woff') format('woff'),
+			url('../font/social-icon-font.ttf') format('truetype'),
+			url('../font/social-icon-font.svg#social-icon-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.social-smugmug:before,
+.social-smugmug-square:before,
+.social-smugmug-round:before,
+.social-dribbble:before,
+.social-dribbble-square:before,
+.social-dribbble-round:before,
+.social-youtube:before,
+.social-youtube-square:before,
+.social-youtube-round:before,
+.social-vimeo:before,
+.social-vimeo-square:before,
+.social-vimeo-round:before,
+.social-twitter:before,
+.social-twitter-square:before,
+.social-twitter-round:before,
+.social-tumblr:before,
+.social-tumblr-square:before,
+.social-tumblr-round:before,
+.social-pinterest:before,
+.social-pinterest-square:before,
+.social-pinterest-round:before,
+.social-linkedin:before,
+.social-linkedin-square:before,
+.social-linkedin-round:before,
+.social-instagram:before,
+.social-instagram-square:before,
+.social-instagram-round:before,
+.social-google:before,
+.social-google-square:before,
+.social-google-round:before,
+.social-foursquare:before,
+.social-foursquare-square:before,
+.social-foursquare-round:before,
+.social-flickr:before,
+.social-flickr-square:before,
+.social-flickr-round:before,
+.social-facebook:before,
+.social-facebook-square:before,
+.social-facebook-round:before,
+.social-fivehundredpix:before,
+.social-fivehundredpix-square:before,
+.social-fivehundredpix-round:before,
+.social-stumbleupon:before,
+.social-stumbleupon-square:before,
+.social-stumbleupon-round:before,
+.social-blogger:before,
+.social-blogger-square:before,
+.social-blogger-round:before,
+.social-reddit:before,
+.social-reddit-square:before,
+.social-reddit-round:before,
+.social-share:before,
+.social-heart:before,
+.social-heart-outline:before,
+.social-email:before,
+.social-email-square:before,
+.social-email-round:before,
+.social-github:before,
+.social-github-square:before,
+.social-github-round:before {
+  font-family: 'social-icon-font';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.social-smugmug:before {
+  content: "\e000";
+}
+.social-icon-style-square .social-smugmug:before {
+  content: "\e001";
+}
+.social-icon-style-round .social-smugmug:before {
+  content: "\e002";
+}
+.social-dribbble:before {
+  content: "\e003";
+}
+.social-icon-style-square .social-dribbble:before {
+  content: "\e004";
+}
+.social-icon-style-round .social-dribbble:before {
+  content: "\e005";
+}
+.social-youtube:before {
+  content: "\e006";
+}
+.social-icon-style-square .social-youtube:before {
+  content: "\e007";
+}
+.social-icon-style-round .social-youtube:before {
+  content: "\e008";
+}
+.social-vimeo:before {
+  content: "\e009";
+}
+.social-icon-style-square .social-vimeo:before {
+  content: "\e00a";
+}
+.social-icon-style-round .social-vimeo:before {
+  content: "\e00b";
+}
+.social-twitter:before {
+  content: "\e00c";
+}
+.social-icon-style-square .social-twitter:before {
+  content: "\e00d";
+}
+.social-icon-style-round .social-twitter:before {
+  content: "\e00e";
+}
+.social-tumblr:before {
+  content: "\e00f";
+}
+.social-icon-style-square .social-tumblr:before {
+  content: "\e010";
+}
+.social-icon-style-round .social-tumblr:before {
+  content: "\e011";
+}
+.social-pinterest:before {
+  content: "\e012";
+}
+.social-icon-style-square .social-pinterest:before {
+  content: "\e013";
+}
+.social-icon-style-round .social-pinterest:before {
+  content: "\e014";
+}
+.social-linkedin:before {
+  content: "\e015";
+}
+.social-icon-style-square .social-linkedin:before {
+  content: "\e016";
+}
+.social-icon-style-round .social-linkedin:before {
+  content: "\e017";
+}
+.social-instagram:before {
+  content: "\e018";
+}
+.social-icon-style-square .social-instagram:before {
+  content: "\e019";
+}
+.social-icon-style-round .social-instagram:before {
+  content: "\e01a";
+}
+.social-google:before {
+  content: "\e01b";
+}
+.social-icon-style-square .social-google:before {
+  content: "\e01c";
+}
+.social-icon-style-round .social-google:before {
+  content: "\e01d";
+}
+.social-googleauth2:before {
+  content: "\e01b";
+}
+.social-icon-style-square .social-googleauth2:before {
+  content: "\e01c";
+}
+.social-icon-style-round .social-googleauth2:before {
+  content: "\e01d";
+}
+.social-foursquare:before {
+  content: "\e01e";
+}
+.social-icon-style-square .social-foursquare:before {
+  content: "\e01f";
+}
+.social-icon-style-round .social-foursquare:before {
+  content: "\e020";
+}
+.social-flickr:before {
+  content: "\e021";
+}
+.social-icon-style-square .social-flickr:before {
+  content: "\e022";
+}
+.social-icon-style-round .social-flickr:before {
+  content: "\e023";
+}
+.social-facebook:before {
+  content: "\e024";
+}
+.social-icon-style-square .social-facebook:before {
+  content: "\e025";
+}
+.social-icon-style-round .social-facebook:before {
+  content: "\e026";
+}
+.social-fivehundredpix:before {
+  content: "\e027";
+}
+.social-icon-style-square .social-fivehundredpix:before {
+  content: "\e028";
+}
+.social-icon-style-round .social-fivehundredpix:before {
+  content: "\e029";
+}
+.social-stumbleupon:before {
+  content: "\e02a";
+}
+.social-icon-style-square .social-stumbleupon:before {
+  content: "\e02b";
+}
+.social-icon-style-round .social-stumbleupon:before {
+  content: "\e02c";
+}
+.social-blogger:before {
+  content: "\e02d";
+}
+.social-icon-style-square .social-blogger:before {
+  content: "\e02e";
+}
+.social-icon-style-round .social-blogger:before {
+  content: "\e02f";
+}
+.social-reddit:before {
+  content: "\e030";
+}
+.social-icon-style-square .social-reddit:before {
+  content: "\e031";
+}
+.social-icon-style-round .social-reddit:before {
+  content: "\e032";
+}
+.social-share:before {
+  content: "\e033";
+}
+.social-heart:before {
+  content: "\e034";
+}
+.social-heart-outline:before {
+  content: "\e035";
+}
+.social-email:before {
+  content: "\e036";
+}
+.social-icon-style-square .social-email:before {
+  content: "\e037";
+}
+.social-icon-style-round .social-email:before {
+  content: "\e038";
+}
+.social-github:before {
+  content: "\e039";
+}
+.social-icon-style-square .social-github:before {
+  content: "\e03a";
+}
+.social-icon-style-round .social-github:before {
+  content: "\e03b";
+}
