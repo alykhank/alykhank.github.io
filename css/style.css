@@ -10,8 +10,8 @@
 }
 
 .avatar-phone {
-	height: 128px;
 	width: 128px;
+	height: 128px;
 	margin: auto;
 }
 
@@ -45,7 +45,12 @@
 	text-decoration: none;
 }
 
-.contact {
-	width: 620px;
+.contactbox {
+	width: 50%;
 	margin: auto;
+}
+
+.contact {
+	width: 100%;
+	height: 580px;
 }
