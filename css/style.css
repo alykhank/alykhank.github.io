@@ -2,33 +2,46 @@
 	font-family: Lobster, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.hero-unit {
+	background-color: #fff;
+}
+
 .resume {
 	font-family: Lobster, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 2em;
-	width: 5em;
+	font-size: 1.6em;
+	width: 4em;
+}
+
+.resume-phone {
+	width: 128px;
 	margin: auto;
 }
 
-.avatar-phone {
+.avatar {
 	width: 128px;
 	height: 128px;
 	margin: auto;
 }
 
 .social {
-	width: 19.5em;
+	color: #000;
+	text-decoration: none;
+	font-size: 2em;
 	margin: auto;
 }
 
-.social a {
-	margin: 0.4em;
-	color: #000;
-	font-size: 2em;
-	text-decoration: none;
+.social-phone {
+	width: 19em;
+	margin: auto;
+}
+.social-phone a {
+	margin: 4%;
+	border: thin 1px black;
 }
 
-.social a:hover {
+.social:hover {
 	color: #333;
+	text-decoration: none;
 }
 
 .description {
