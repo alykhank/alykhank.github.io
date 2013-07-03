@@ -6,6 +6,18 @@ body {
 	font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.navbar-inner {
+	box-shadow: none;
+}
+
+.nav li a {
+	position: relative;
+}
+
+.nav li a:hover {
+	top: -1px;
+}
+
 .hero-unit {
 	background-color: #fff;
 }
