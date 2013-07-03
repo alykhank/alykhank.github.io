@@ -7,7 +7,7 @@ body {
 }
 
 .navbar-inner {
-	box-shadow: none;
+	box-shadow: none !important;
 }
 
 .nav li a {
