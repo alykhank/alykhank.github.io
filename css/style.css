@@ -8,6 +8,9 @@ body {
 
 .navbar-inner {
 	box-shadow: none !important;
+	background-color: #fff;
+	background-image: none;
+	border: none;
 }
 
 .nav li a {
@@ -51,7 +54,7 @@ body {
 }
 .social-phone a {
 	margin: 4%;
-	border: thin 1px black;
+	border: thin 1px #000;
 }
 
 .social:hover {
