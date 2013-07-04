@@ -46,10 +46,11 @@ body {
 }
 
 .social {
-	color: #000;
+	color: #777;
 	text-decoration: none;
 	font-size: 2em;
 	margin: auto;
+	position: relative;
 }
 
 .social-phone {
@@ -62,8 +63,9 @@ body {
 }
 
 .social:hover {
-	color: #333;
+	color: #000;
 	text-decoration: none;
+	top: -1px;
 }
 
 .description {
