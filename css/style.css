@@ -14,6 +14,7 @@ body {
 }
 
 .nav li a {
+	font-weight: light;
 	position: relative;
 	text-transform: lowercase;
 }
@@ -26,6 +27,14 @@ body {
 	background-color: #fff;
 }
 
+.hero-unit h1 {
+	font-size: 5em;
+}
+
+.hero-unit .lead {
+	font-size: 2em;
+}
+
 .resume {
 	font-size: 1.6em;
 	width: 4em;
@@ -33,12 +42,6 @@ body {
 
 .resume-phone {
 	width: 128px;
-	margin: auto;
-}
-
-.avatar {
-	width: 128px;
-	height: 128px;
 	margin: auto;
 }
 
