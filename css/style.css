@@ -14,7 +14,7 @@ body {
 }
 
 .nav li a {
-	font-weight: light;
+	font-size: 1.5em;
 	position: relative;
 	text-transform: lowercase;
 }
