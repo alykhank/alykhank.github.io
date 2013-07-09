@@ -4,6 +4,6 @@
 [submodule "WAC2011"]
 	path = WAC2011
 	url = https://github.com/alykhank/wac2011.git
-[submodule "wac2010"]
-	path = wac2010
+[submodule "WAC2010"]
+	path = WAC2010
 	url = https://github.com/alykhank/wac2010.git
