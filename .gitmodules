@@ -7,3 +7,6 @@
 [submodule "WAC2010"]
 	path = WAC2010
 	url = https://github.com/alykhank/wac2010.git
+[submodule "resume"]
+	path = resume
+	url = https://github.com/alykhank/resume.git
