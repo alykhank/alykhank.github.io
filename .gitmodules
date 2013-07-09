@@ -1,0 +1,3 @@
+[submodule "ucc"]
+	path = ucc
+	url = https://github.com/alykhank/ucc.git
