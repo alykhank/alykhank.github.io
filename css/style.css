@@ -58,6 +58,10 @@ body {
 	top: -1px;
 }
 
+.section-title {
+	font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .description {
 	font-size: small;
 	font-weight: bolder;
