@@ -10,3 +10,6 @@
 [submodule "resume"]
 	path = resume
 	url = https://github.com/alykhank/resume.git
+[submodule "locale"]
+	path = locale
+	url = https://github.com/alykhank/locale.git
