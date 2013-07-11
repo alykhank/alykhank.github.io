@@ -1,95 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="author" content="Alykhan Kanji">
-	<meta name="description" content="The website of Alykhan Kanji. See Alykhan's social media profiles and professional portfolio.">
-	<meta name="viewport" content="initial-scale=1.0">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="apple-mobile-web-app-title" content="Alykhan">
-	<title>Alykhan Kanji</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/social-icon-font.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Raleway:700,400|Julius+Sans+One' rel='stylesheet' type='text/css'>
-	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<link rel="icon" type="image/png" href="img/alykhank.png">
-	<link rel="apple-touch-icon-precomposed" type="image/png" href="img/alykhank.png">
-	<!-- start Google Analytics --><script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-20277066-2']);
-	  _gaq.push(['_setDomainName', 'alykhan.com']);
-	  _gaq.push(['_trackPageview']);
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	</script><!-- end Google Analytics -->
-	<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
-	typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
-	b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
-	mixpanel.init("ea3b9e92f68e0206bcb0ae19dbd1147a");</script><!-- end Mixpanel -->
-</head>
-<body onload="mixpanel.track('Page View', {'Page Name': 'Home', 'URL': window.location.href})">
-	<div class="container">
-		<div class="navbar">
-			<br>
-			<div class="navbar-inner">
-				<ul class="nav">
-					<li><a href="/">Home</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="resume/resume.pdf" target="_blank">R&eacute;sum&eacute;</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</div><!-- navbar -->
-		<div class="hero-unit hidden-phone">
-			<h1 class="text-center">Alykhan Kanji</h1>
-			<br>
-			<p class="lead text-center subtitle">Software Developer</p>
-			<p>Candidate for Bachelor of <a href="https://uwaterloo.ca/software-engineering/">Software Engineering</a> at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I'm enthusiastic about Open Data and iOS development. I have experience developing <a href="portfolio.html">mobile apps and websites</a>.</p>
-			<br>
-			<div class="row">
-				<div class="span1 offset3">
-					<a href="http://ca.linkedin.com/in/alykhankanji" target="_blank" class="social social-linkedin"></a>
-				</div>
-				<div class="span1">
-					<a href="http://github.com/alykhank" target="_blank" class="social social-github"></a>
-				</div>
-				<div class="span1">
-					<a href="http://twitter.com/alykhank" target="_blank" class="social social-twitter"></a>
-				</div>
-				<div class="span1">
-					<a href="http://flickr.com/photos/alykhankanji" target="_blank" class="social social-flickr"></a>
-				</div>
-				<div class="span1">
-					<a href="http://vimeo.com/alykhan" target="_blank" class="social social-vimeo"></a>
-				</div>
-			</div>
+---
+layout: default
+title: Alykhan Kanji
+---
+<!-- <body onload="mixpanel.track('Page View', {'Page Name': 'Home', 'URL': window.location.href})"> -->
+<div class="hero-unit hidden-phone">
+	<h1 class="text-center">Alykhan Kanji</h1>
+	<br>
+	<p class="lead text-center subtitle">Software Developer</p>
+	<p>Candidate for Bachelor of <a href="https://uwaterloo.ca/software-engineering/">Software Engineering</a> at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I'm enthusiastic about Open Data and iOS development. I have experience developing <a href="portfolio.html">mobile apps and websites</a>.</p>
+	<br>
+	<div class="row">
+		<div class="span1 offset3">
+			<a href="http://ca.linkedin.com/in/alykhankanji" target="_blank" class="social social-linkedin"></a>
 		</div>
-		<div class="visible-phone">
-			<h1 class="text-center">Alykhan Kanji</h1>
-			<p class="lead text-center subtitle">Software Developer</p>
-			<p>Candidate for <a href="https://uwaterloo.ca/software-engineering/">Bachelor of Software Engineering</a> at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I'm enthusiastic about Open Data and iOS development. I have experience developing <a href="portfolio.html">mobile apps and websites</a>.</p>
-			<br>
-			<div class="social-phone">
-				<a href="http://ca.linkedin.com/in/alykhankanji" target="_blank" class="social social-linkedin"></a>
-				<a href="http://github.com/alykhank" target="_blank" class="social social-github"></a>
-				<a href="http://twitter.com/alykhank" target="_blank" class="social social-twitter"></a>
-				<a href="http://flickr.com/photos/alykhankanji" target="_blank" class="social social-flickr"></a>
-				<a href="http://vimeo.com/alykhan" target="_blank" class="social social-vimeo"></a>
-			</div>
-			<br><br>
+		<div class="span1">
+			<a href="http://github.com/alykhank" target="_blank" class="social social-github"></a>
 		</div>
-		<div class="muted text-center">
-			&copy; 2009&ndash;<script type="text/javascript">var d=new Date();document.write(d.getFullYear());</script> Alykhan Kanji. All Rights Reserved.
+		<div class="span1">
+			<a href="http://twitter.com/alykhank" target="_blank" class="social social-twitter"></a>
 		</div>
-		<br>
-	</div><!-- container -->
-</body>
-</html>
+		<div class="span1">
+			<a href="http://flickr.com/photos/alykhankanji" target="_blank" class="social social-flickr"></a>
+		</div>
+		<div class="span1">
+			<a href="http://vimeo.com/alykhan" target="_blank" class="social social-vimeo"></a>
+		</div>
+	</div>
+</div>
+<div class="visible-phone">
+	<h1 class="text-center">Alykhan Kanji</h1>
+	<p class="lead text-center subtitle">Software Developer</p>
+	<p>Candidate for <a href="https://uwaterloo.ca/software-engineering/">Bachelor of Software Engineering</a> at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I'm enthusiastic about Open Data and iOS development. I have experience developing <a href="portfolio.html">mobile apps and websites</a>.</p>
+	<br>
+	<div class="social-phone">
+		<a href="http://ca.linkedin.com/in/alykhankanji" target="_blank" class="social social-linkedin"></a>
+		<a href="http://github.com/alykhank" target="_blank" class="social social-github"></a>
+		<a href="http://twitter.com/alykhank" target="_blank" class="social social-twitter"></a>
+		<a href="http://flickr.com/photos/alykhankanji" target="_blank" class="social social-flickr"></a>
+		<a href="http://vimeo.com/alykhan" target="_blank" class="social social-vimeo"></a>
+	</div>
+	<br><br>
+</div>
