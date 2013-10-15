@@ -65,3 +65,8 @@ body {
 .section-title {
 	font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.contact {
+	border: none;
+	width: 100%;
+}
