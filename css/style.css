@@ -29,11 +29,11 @@ body {
 .jumbotron h1 {
 	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bolder;
-	font-size: 4em;
+	font-size: 3em;
 }
 
 .jumbotron .lead {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .social, .social:hover {
