@@ -12,13 +12,13 @@ body {
 	border: none;
 }
 
-.nav li a {
+.navbar-default .navbar-nav > li > a {
 	font-size: 1.5em;
-	position: relative;
 	text-transform: lowercase;
 }
 
-.nav li a:hover {
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	position: relative;
 	top: -1px;
 }
 
@@ -29,23 +29,25 @@ body {
 .jumbotron h1 {
 	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bolder;
-	font-size: 5em;
+	font-size: 4em;
 }
 
 .jumbotron .lead {
-	font-size: 2em;
+	font-size: 1.5em;
+}
+
+.social, .social:hover {
+	text-decoration: none;
 }
 
 .social {
 	color: #777;
-	text-decoration: none;
 	font-size: 2em;
-	position: relative;
 }
 
 .social:hover {
-	color: #000;
-	text-decoration: none;
+	color: black;
+	position: relative;
 	top: -1px;
 }
 
