@@ -36,12 +36,11 @@
 </head>
 <body>
 	<div class="container">
-		<div class="site">
-			{% include header.html %}
-				{{ content }}
-			{% include footer.html %}
+		{% include header.html %}
+			{{ content }}
 			<br>
-		</div>
-	</div> <!-- /container -->
+		{% include footer.html %}
+		<br>
+	</div><!-- container -->
 </body>
 </html>
