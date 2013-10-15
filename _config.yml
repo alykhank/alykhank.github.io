@@ -1,2 +1,3 @@
 name: Alykhan Kanji
-pygments: true
+safe: true
+exclude: [README.md, LICENSE.md]
