@@ -42,7 +42,18 @@ body {
 
 .social {
 	color: #777;
-	font-size: 2em;
+}
+
+@media screen and (min-width: 480px) {
+	.social {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.social {
+		font-size: 1.5em;
+	}
 }
 
 .social:hover {
