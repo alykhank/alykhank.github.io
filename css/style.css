@@ -2,6 +2,13 @@ body {
 	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+@media only screen and (min-width: 481px) {
+	body {
+		background: url('../img/mit.jpg') no-repeat center center fixed;
+		background-size: cover;
+	}
+}
+
 .navbar-brand, .subtitle {
 	font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -25,7 +32,14 @@ body {
 }
 
 .jumbotron {
-	background-color: white;
+	background: none;
+}
+
+@media only screen and (min-width: 481px) {
+	.jumbotron {
+		background: rgba(255, 255, 255, 0.8);
+		box-shadow: 0px 1px 2px #777;
+	}
 }
 
 .jumbotron h1 {
