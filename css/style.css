@@ -14,10 +14,12 @@ body {
 
 .navbar-default .navbar-nav > li > a {
 	font-size: 1.5em;
+	color: #333;
 	text-transform: lowercase;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: black;
 	position: relative;
 	top: -1px;
 }
@@ -46,7 +48,7 @@ body {
 }
 
 i {
-	color: #777;
+	color: #555;
 }
 
 i:hover {
