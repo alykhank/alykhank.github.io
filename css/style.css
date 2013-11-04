@@ -36,32 +36,6 @@ body {
 	font-size: 1.2em;
 }
 
-.social, .social:hover {
-	text-decoration: none;
-}
-
-.social {
-	color: #777;
-}
-
-@media screen and (min-width: 480px) {
-	.social {
-		font-size: 2em;
-	}
-}
-
-@media screen and (max-width: 479px) {
-	.social {
-		font-size: 1.5em;
-	}
-}
-
-.social:hover {
-	color: black;
-	position: relative;
-	top: -1px;
-}
-
 .section-title {
 	font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -69,4 +43,14 @@ body {
 .contact {
 	border: none;
 	width: 100%;
+}
+
+i {
+	color: #777;
+}
+
+i:hover {
+	color: black;
+	position: relative;
+	top: -1px;
 }
