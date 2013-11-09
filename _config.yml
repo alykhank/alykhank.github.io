@@ -1,3 +1,5 @@
 name: Alykhan Kanji
 safe: true
+markdown: redcarpet
+pygments: true
 exclude: [README.md, LICENSE.md, CNAME, Gemfile, Gemfile.lock]
