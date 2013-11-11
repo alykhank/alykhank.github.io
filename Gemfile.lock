@@ -9,11 +9,11 @@ GEM
       highline (~> 1.6.11)
     fast-stemmer (1.0.2)
     ffi (1.9.3)
-    github-pages (9)
+    github-pages (10)
       RedCloth (= 4.2.9)
       jekyll (= 1.3.0)
       kramdown (= 1.2.0)
-      liquid (= 2.5.3)
+      liquid (= 2.5.4)
       maruku (= 0.6.1)
       rdiscount (= 2.1.7)
       redcarpet (= 2.3.0)
@@ -29,7 +29,7 @@ GEM
       redcarpet (~> 2.3.0)
       safe_yaml (~> 0.9.7)
     kramdown (1.2.0)
-    liquid (2.5.3)
+    liquid (2.5.4)
     listen (1.3.1)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -55,4 +55,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (~> 9)
+  github-pages (~> 10)
