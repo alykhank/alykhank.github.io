@@ -1,6 +1,3 @@
-[submodule "ucc"]
-	path = ucc
-	url = https://github.com/alykhank/ucc.git
 [submodule "WAC2011"]
 	path = WAC2011
 	url = https://github.com/alykhank/wac2011.git
