@@ -6,129 +6,24 @@ title: Portfolio &#8226; Alykhan Kanji
 <h1 class="text-center section-title">Portfolio</h1>
 <br>
 <div class="row">
+{% for p in site.data.projects %}
 	<div class="col-xs-6 col-sm-3">
 		<div class="thumbnail">
-			<img src="img/uwmenu.png" alt="UW Menu" class="img-rounded img-responsive">
+			{% if p.thumbnail %}
+			<img src="img/{{ p.thumbnail }}.png" alt="{{ p.title }}" {% if p.thumbnail_tall %}width="75"{% endif %} class="img-rounded img-responsive">
+			{% endif %}
 			<div class="caption">
-				<h4>UW Menu</h4>
-				<p>Weekly menus for the University of Waterloo's on-campus eateries.</p>
-				<a href="http://uwmenu.com" target="_blank" class="btn btn-success btn-block">Live</a>
-				<a href="https://github.com/alykhank/FoodMenu" target="_blank" class="btn btn-primary btn-block">GitHub</a>
+				<h4>{{ p.title }}</h4>
+				<p>{{ p.caption }}</p>
+				{% if p.live %}
+				<a href="{{ p.live }}" target="_blank" class="btn btn-success btn-block">Live</a>
+				{% endif %}
+				{% if p.github %}
+				<a href="{{ p.github }}" target="_blank" class="btn btn-primary btn-block">GitHub</a>
+				{% endif %}
 			</div>
 		</div>
 	</div>
-	<div class="col-xs-6 col-sm-3">
-		<div class="thumbnail">
-			<img src="img/calculator.png" alt="Calculator" class="img-rounded img-responsive">
-			<div class="caption">
-				<h4>RPN Calculator</h4>
-				<p>A programmable, graphing, Reverse Polish Notation calculator.</p>
-				<a href="https://github.com/alykhank/calculator" target="_blank" class="btn btn-primary btn-block">GitHub</a>
-			</div>
-		</div>
-	</div>
-	<div class="clearfix visible-xs"></div>
-	<div class="col-xs-6 col-sm-3">
-		<div class="thumbnail">
-			<img src="img/goosewatch.png" alt="NextRide" class="img-rounded img-responsive">
-			<div class="caption">
-				<h4>Goose Watch</h4>
-				<p>Displays goose nest sightings on the University of Waterloo campus.</p>
-				<a href="https://github.com/alykhank/GooseWatch" target="_blank" class="btn btn-primary btn-block">GitHub</a>
-			</div>
-		</div>
-	</div>
-	<div class="col-xs-6 col-sm-3">
-		<div class="thumbnail">
-			<img src="img/nextride.png" alt="NextRide" class="img-rounded img-responsive">
-			<div class="caption">
-				<h4>NextRide</h4>
-				<p>Brampton Transit NextRide API.</p>
-				<a href="http://nextride.alykhan.com" target="_blank" class="btn btn-success btn-block">Live</a>
-				<a href="https://github.com/alykhank/NextRide" target="_blank" class="btn btn-primary btn-block">GitHub</a>
-			</div>
-		</div>
-	</div>
-	<div class="clearfix"></div>
-	<div class="col-xs-6 col-sm-3">
-		<div class="thumbnail">
-			<img src="img/locale.png" alt="Locale" class="img-rounded img-responsive">
-			<div class="caption">
-				<h4>Locale</h4>
-				<p>A location-aware alarm.</p>
-				<a href="http://alykhan.com/locale/" target="_blank" class="btn btn-success btn-block">Live</a>
-				<a href="https://github.com/alykhank/locale" target="_blank" class="btn btn-primary btn-block">GitHub</a>
-			</div>
-		</div>
-	</div>
-	<div class="col-xs-6 col-sm-3">
-		<div class="thumbnail">
-			<!-- <img src="img/buspointer.png" alt="Bus Pointer" class="img-rounded img-responsive"> -->
-			<div class="caption">
-				<h4>Bus Pointer</h4>
-				<p>Realtime nearby transit vehicle arrival times.</p>
-				<a href="http://buspointer.alykhan.com" target="_blank" class="btn btn-success btn-block">Live</a>
-				<a href="https://github.com/AliceYuan/LinkedinHackTransit" target="_blank" class="btn btn-primary btn-block">GitHub</a>
-			</div>
-		</div>
-	</div>
-	<div class="clearfix"></div>
-	<div class="col-xs-6 col-sm-4">
-		<div class="thumbnail">
-			<img src="img/c3inspire.png" alt="C3 Inspire" class="img-rounded img-responsive">
-			<div class="caption">
-				<h4>C3 Inspire</h4>
-				<p>The website of C3 Inspire.</p>
-				<a href="http://c3inspire.com" target="_blank" class="btn btn-success btn-block">Live</a>
-				<a href="https://github.com/c3inspire/c3inspire.github.io" target="_blank" class="btn btn-primary btn-block">GitHub</a>
-			</div>
-		</div>
-	</div>
-	<div class="col-xs-6 col-sm-4">
-		<div class="thumbnail">
-			<img src="img/tunezout.png" alt="Tunezout" class="img-rounded img-responsive">
-			<div class="caption">
-				<h4>Tunezout</h4>
-				<p>Discover popular music.</p>
-				<a href="http://www.tunezout.com/" target="_blank" class="btn btn-success btn-block">Live</a>
-				<a href="https://github.com/alykhank/Tunezout" target="_blank" class="btn btn-primary btn-block">GitHub</a>
-			</div>
-		</div>
-	</div>
-	<div class="clearfix visible-xs"></div>
-	<div class="col-xs-6 col-sm-4">
-		<div class="thumbnail">
-			<img src="img/populate.png" alt="Populate" class="img-rounded img-responsive">
-			<div class="caption">
-				<h4>Populate</h4>
-				<p>Read interesting articles, listen to the conversation, take meaningful action.</p>
-				<a href="http://populate-mit.herokuapp.com" target="_blank" class="btn btn-success btn-block">Live</a>
-				<a href="https://github.com/alykhank/populate" target="_blank" class="btn btn-primary btn-block">GitHub</a>
-			</div>
-		</div>
-	</div>
-	<div class="clearfix hidden-xs"></div>
-	<div class="col-xs-6 col-sm-4">
-		<div class="thumbnail">
-			<img src="img/wac2011_thumb.png" alt="WAC 2011" class="img-rounded img-responsive">
-			<div class="caption">
-				<h4>WAC 2011</h4>
-				<p>Website for World Affairs Conference 2011.</p>
-				<a href="WAC2011/" target="_blank" class="btn btn-success btn-block">Live</a>
-				<a href="https://github.com/alykhank/wac2011" target="_blank" class="btn btn-primary btn-block">GitHub</a>
-			</div>
-		</div>
-	</div>
-	<div class="col-xs-6 col-sm-4">
-		<div class="thumbnail">
-			<img src="img/wac2010_thumb.png" alt="WAC 2010" class="img-rounded img-responsive">
-			<div class="caption">
-				<h4>WAC 2010</h4>
-				<p>Website for World Affairs Conference 2010.</p>
-				<a href="WAC2010/" target="_blank" class="btn btn-success btn-block">Live</a>
-				<a href="https://github.com/alykhank/wac2010" target="_blank" class="btn btn-primary btn-block">GitHub</a>
-			</div>
-		</div>
-	</div>
-	<div class="clearfix"></div>
+	{% cycle nil, '<div class="clearfix visible-xs"></div>', nil, '<div class="clearfix"></div>' %}
+{% endfor %}
 </div>
