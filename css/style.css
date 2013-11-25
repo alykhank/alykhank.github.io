@@ -2,13 +2,6 @@ body {
 	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media only screen and (min-width: 481px) {
-	body {
-		background: url('../img/mit.jpg') no-repeat center center fixed;
-		background-size: cover;
-	}
-}
-
 .navbar-brand, .subtitle {
 	font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
