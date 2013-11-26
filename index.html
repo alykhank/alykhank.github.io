@@ -11,23 +11,31 @@ name: Home
 	<br>
 	<div class="row text-center">
 		<div class="col-xs-4 col-sm-2">
-			<a href="http://ca.linkedin.com/in/alykhankanji" target="_blank"><i class="fa fa-fw fa-2x fa-linkedin"></i></a>
+			<a href="http://ca.linkedin.com/in/alykhankanji" target="_blank" id="linkedin"><i class="fa fa-fw fa-2x fa-linkedin"></i></a>
 		</div>
 		<div class="col-xs-4 col-sm-2">
-			<a href="http://github.com/alykhank" target="_blank"><i class="fa fa-fw fa-2x fa-github"></i></a>
+			<a href="http://github.com/alykhank" target="_blank" id="github"><i class="fa fa-fw fa-2x fa-github"></i></a>
 		</div>
 		<div class="col-xs-4 col-sm-2">
-			<a href="http://twitter.com/alykhank" target="_blank"><i class="fa fa-fw fa-2x fa-twitter"></i></a>
+			<a href="http://twitter.com/alykhank" target="_blank" id="twitter"><i class="fa fa-fw fa-2x fa-twitter"></i></a>
 		</div>
 		<div class="clearfix visible-xs"></div>
 		<div class="col-xs-4 col-sm-2">
-			<a href="http://instagram.com/alykhank" target="_blank"><i class="fa fa-fw fa-2x fa-instagram"></i></a>
+			<a href="http://instagram.com/alykhank" target="_blank" id="instagram"><i class="fa fa-fw fa-2x fa-instagram"></i></a>
 		</div>
 		<div class="col-xs-4 col-sm-2">
-			<a href="http://flickr.com/photos/alykhankanji" target="_blank"><i class="fa fa-fw fa-2x fa-flickr"></i></a>
+			<a href="http://flickr.com/photos/alykhankanji" target="_blank" id="flickr"><i class="fa fa-fw fa-2x fa-flickr"></i></a>
 		</div>
 		<div class="col-xs-4 col-sm-2">
-			<a href="http://vimeo.com/alykhan" target="_blank"><i class="fa fa-fw fa-2x fa-vimeo-square"></i></a>
+			<a href="http://vimeo.com/alykhan" target="_blank" id="vimeo"><i class="fa fa-fw fa-2x fa-vimeo-square"></i></a>
 		</div>
 	</div>
 </div>
+<script>
+	mixpanel.track_links("#linkedin", "Link Click", {'Network': 'LinkedIn'});
+	mixpanel.track_links("#github", "Link Click", {'Network': 'GitHub'});
+	mixpanel.track_links("#twitter", "Link Click", {'Network': 'Twitter'});
+	mixpanel.track_links("#instagram", "Link Click", {'Network': 'Instagram'});
+	mixpanel.track_links("#flickr", "Link Click", {'Network': 'Flickr'});
+	mixpanel.track_links("#vimeo", "Link Click", {'Network': 'Vimeo'});
+</script>
