@@ -6,7 +6,7 @@
 		{% include photobg.html %}
 	{% endif %}
 </head>
-<body onload="mixpanel.track('Page View', {'Page Name': {{ page.name }}, 'URL': window.location.href})">
+<body onload="mixpanel.track('Page View', {'Page Name': '{{ page.name }}', 'URL': window.location.href});">
 	<div class="container">
 		{% include header.html %}
 			{{ content }}
