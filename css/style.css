@@ -13,6 +13,15 @@ body {
 	border: none;
 }
 
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
 .navbar-default .navbar-nav > li > a {
 	font-size: 1.5em;
 	color: #333;
