@@ -49,11 +49,6 @@ body {
 	font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.contact {
-	border: none;
-	width: 100%;
-}
-
 .fa {
 	transition: color 0.4s ease;
 }
