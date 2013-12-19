@@ -11,31 +11,61 @@ name: Home
 	<br>
 	<div class="row text-center">
 		<div class="col-xs-4 col-sm-2">
-			<a href="http://ca.linkedin.com/in/alykhankanji" target="_blank" id="linkedin"><i class="fa fa-fw fa-2x fa-linkedin"></i></a>
+			<a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#109;&#x65;&#x40;&#x61;&#x6c;&#x79;&#107;&#104;&#97;&#x6e;&#46;&#x63;&#x6f;&#x6d;" target="_blank" id="contact">
+				<span class="fa-stack fa-2x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-inbox fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
 		</div>
 		<div class="col-xs-4 col-sm-2">
-			<a href="http://github.com/alykhank" target="_blank" id="github"><i class="fa fa-fw fa-2x fa-github"></i></a>
+			<a href="http://ca.linkedin.com/in/alykhankanji" target="_blank" id="linkedin">
+				<span class="fa-stack fa-2x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
 		</div>
 		<div class="col-xs-4 col-sm-2">
-			<a href="http://twitter.com/alykhank" target="_blank" id="twitter"><i class="fa fa-fw fa-2x fa-twitter"></i></a>
+			<a href="http://github.com/alykhank" target="_blank" id="github">
+				<span class="fa-stack fa-2x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
 		</div>
 		<div class="clearfix visible-xs"></div>
 		<div class="col-xs-4 col-sm-2">
-			<a href="http://instagram.com/alykhank" target="_blank" id="instagram"><i class="fa fa-fw fa-2x fa-instagram"></i></a>
+			<a href="http://twitter.com/alykhank" target="_blank" id="twitter">
+				<span class="fa-stack fa-2x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
 		</div>
 		<div class="col-xs-4 col-sm-2">
-			<a href="http://flickr.com/photos/alykhankanji" target="_blank" id="flickr"><i class="fa fa-fw fa-2x fa-flickr"></i></a>
+			<a href="http://instagram.com/alykhank" target="_blank" id="instagram">
+				<span class="fa-stack fa-2x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
 		</div>
 		<div class="col-xs-4 col-sm-2">
-			<a href="http://vimeo.com/alykhan" target="_blank" id="vimeo"><i class="fa fa-fw fa-2x fa-vimeo-square"></i></a>
+			<a href="http://flickr.com/photos/alykhankanji" target="_blank" id="flickr">
+				<span class="fa-stack fa-2x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
 		</div>
 	</div>
 </div>
 <script>
+	mixpanel.track_links("#contact", "Social Link Click", {'Network': 'Contact'});
 	mixpanel.track_links("#linkedin", "Social Link Click", {'Network': 'LinkedIn'});
 	mixpanel.track_links("#github", "Social Link Click", {'Network': 'GitHub'});
 	mixpanel.track_links("#twitter", "Social Link Click", {'Network': 'Twitter'});
 	mixpanel.track_links("#instagram", "Social Link Click", {'Network': 'Instagram'});
 	mixpanel.track_links("#flickr", "Social Link Click", {'Network': 'Flickr'});
-	mixpanel.track_links("#vimeo", "Social Link Click", {'Network': 'Vimeo'});
 </script>
