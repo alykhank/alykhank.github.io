@@ -54,12 +54,18 @@ body {
 	width: 100%;
 }
 
-i {
-	color: #555;
+.fa {
+	transition: color 0.4s ease;
 }
 
-i:hover {
-	color: black;
-	position: relative;
-	top: -1px;
+.fa-stack {
+	color: rgb(38,121,219);
+}
+
+.fa-stack:hover {
+	color: white;
+}
+
+.fa-stack:hover .fa-inverse {
+	color: rgb(38,121,219);
 }
