@@ -64,6 +64,7 @@ body {
 }
 
 .fa-stack {
+	font-size: 1.4em;
 	color: rgb(38,121,219);
 }
 
@@ -73,4 +74,10 @@ body {
 
 .fa-stack:hover .fa-inverse {
 	color: rgb(38,121,219);
+}
+
+@media only screen and (min-width: 480px) {
+	.fa-stack {
+		font-size: 2em;
+	}
 }
