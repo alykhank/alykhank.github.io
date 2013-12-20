@@ -1,28 +1,26 @@
 <section id="portfolio">
-	<div class="container">
-		<h1 class="text-center section-title">Portfolio</h1>
-		<br>
-		<div class="row">
-			{% for p in site.data.projects %}
-			<div class="col-xs-6 col-sm-3">
-				<div class="thumbnail">
-					{% if p.thumbnail %}
-					<img src="img/{{ p.thumbnail }}.png" alt="{{ p.title }}" {% if p.thumbnail_tall %}width="75"{% endif %} class="img-rounded img-responsive">
+	<h1 class="text-center section-title">Portfolio</h1>
+	<br>
+	<div class="row">
+		{% for p in site.data.projects %}
+		<div class="col-xs-6 col-sm-3">
+			<div class="thumbnail">
+				{% if p.thumbnail %}
+				<img src="img/{{ p.thumbnail }}.png" alt="{{ p.title }}" {% if p.thumbnail_tall %}width="75"{% endif %} class="img-rounded img-responsive">
+				{% endif %}
+				<div class="caption">
+					<h4>{{ p.title }}</h4>
+					<p>{{ p.caption }}</p>
+					{% if p.live %}
+					<a href="{{ p.live }}" target="_blank" class="btn btn-success btn-block">Live</a>
 					{% endif %}
-					<div class="caption">
-						<h4>{{ p.title }}</h4>
-						<p>{{ p.caption }}</p>
-						{% if p.live %}
-						<a href="{{ p.live }}" target="_blank" class="btn btn-success btn-block">Live</a>
-						{% endif %}
-						{% if p.github %}
-						<a href="{{ p.github }}" target="_blank" class="btn btn-primary btn-block">GitHub</a>
-						{% endif %}
-					</div>
+					{% if p.github %}
+					<a href="{{ p.github }}" target="_blank" class="btn btn-primary btn-block">GitHub</a>
+					{% endif %}
 				</div>
 			</div>
-			{% cycle nil, '<div class="clearfix visible-xs"></div>', nil, '<div class="clearfix"></div>' %}
-			{% endfor %}
 		</div>
+		{% cycle nil, '<div class="clearfix visible-xs"></div>', nil, '<div class="clearfix"></div>' %}
+		{% endfor %}
 	</div>
 </section>
