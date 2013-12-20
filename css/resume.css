@@ -1,0 +1,61 @@
+.resume {
+	padding: 0 40px 40px 40px;
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	max-width: 760px;
+	margin: auto;
+}
+.resume h1, h3, h4, h5, h6 {
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.resume h1, h2 {
+	text-align: center;
+}
+.resume h1 {
+	margin-bottom: 0;
+	font-weight: bold;
+}
+.resume h2, h3, h4, h5 {
+	margin: 0;
+}
+.resume h2 {
+	font-size: 1.2em;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+.resume h3 {
+	font-style: italic;
+	font-weight: bold;
+}
+.resume h4 {
+	float: left;
+	font-weight: normal;
+}
+.resume h5 {
+	float: right;
+	font-style: italic;
+	font-weight: normal;
+	color: #999;
+}
+.resume a {
+	color: #348ac8;
+	text-decoration: none;
+}
+.resume ul {
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+.resume hr {
+	border: 0;
+	height: 1px;
+	background: #ccc;
+	margin-top: 0;
+}
+.resume li {
+	clear: both;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+@media print {
+	.resume {
+		width: 95%;
+	}
+}
