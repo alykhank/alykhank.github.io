@@ -4,45 +4,47 @@ title: Alykhan Kanji
 name: Home
 ---
 <div class="jumbotron">
-	<img src="{{ site.baseurl }}img/ak.png" alt="Alykhan Kanji" width="128" class="img-circle img-thumbnail center-block">
-	<h1 class="text-center">Alykhan Kanji</h1>
-	<p class="lead text-center subtitle">Software Developer</p>
-	<p>Candidate for Bachelor of <a href="https://uwaterloo.ca/software-engineering/">Software Engineering</a> at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. Past intern at <a href="http://www.tripadvisor.com/">TripAdvisor</a> and <a href="http://fixmo.com/">Fixmo</a>. I'm enthusiastic about Open Data and building projects for the greater good. I have experience with <a href="portfolio">full-stack web and mobile development</a>.</p>
-	<br>
-	<div class="row text-center">
-		<div class="col-xs-4 col-sm-2">
-			<a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#109;&#x65;&#x40;&#x61;&#x6c;&#x79;&#107;&#104;&#97;&#x6e;&#46;&#x63;&#x6f;&#x6d;" target="_blank" id="contact">
-				{% include fa.html icon="inbox" %}
-			</a>
+	<div class="container">
+		<img src="{{ site.baseurl }}img/ak.png" alt="Alykhan Kanji" width="128" class="img-circle img-thumbnail center-block">
+		<h1 class="text-center">Alykhan Kanji</h1>
+		<p class="lead text-center subtitle">Software Developer</p>
+		<p>Candidate for Bachelor of <a href="https://uwaterloo.ca/software-engineering/">Software Engineering</a> at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. Past intern at <a href="http://www.tripadvisor.com/">TripAdvisor</a> and <a href="http://fixmo.com/">Fixmo</a>. I'm enthusiastic about Open Data and building projects for the greater good. I have experience with <a href="portfolio">full-stack web and mobile development</a>.</p>
+		<br>
+		<div class="row text-center">
+			<div class="col-xs-4 col-sm-2">
+				<a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#109;&#x65;&#x40;&#x61;&#x6c;&#x79;&#107;&#104;&#97;&#x6e;&#46;&#x63;&#x6f;&#x6d;" target="_blank" id="contact">
+					{% include fa.html icon="inbox" %}
+				</a>
+			</div>
+			<div class="col-xs-4 col-sm-2">
+				<a href="https://www.linkedin.com/in/alykhankanji" target="_blank" id="linkedin">
+					{% include fa.html icon="linkedin" %}
+				</a>
+			</div>
+			<div class="col-xs-4 col-sm-2">
+				<a href="https://github.com/alykhank" target="_blank" id="github">
+					{% include fa.html icon="github" %}
+				</a>
+			</div>
+			<div class="clearfix visible-xs"></div>
+			<div class="col-xs-4 col-sm-2">
+				<a href="https://twitter.com/alykhank" target="_blank" id="twitter">
+					{% include fa.html icon="twitter" %}
+				</a>
+			</div>
+			<div class="col-xs-4 col-sm-2">
+				<a href="http://instagram.com/alykhank" target="_blank" id="instagram">
+					{% include fa.html icon="instagram" %}
+				</a>
+			</div>
+			<div class="col-xs-4 col-sm-2">
+				<a href="http://www.flickr.com/photos/alykhankanji" target="_blank" id="flickr">
+					{% include fa.html icon="flickr" %}
+				</a>
+			</div>
 		</div>
-		<div class="col-xs-4 col-sm-2">
-			<a href="https://www.linkedin.com/in/alykhankanji" target="_blank" id="linkedin">
-				{% include fa.html icon="linkedin" %}
-			</a>
-		</div>
-		<div class="col-xs-4 col-sm-2">
-			<a href="https://github.com/alykhank" target="_blank" id="github">
-				{% include fa.html icon="github" %}
-			</a>
-		</div>
-		<div class="clearfix visible-xs"></div>
-		<div class="col-xs-4 col-sm-2">
-			<a href="https://twitter.com/alykhank" target="_blank" id="twitter">
-				{% include fa.html icon="twitter" %}
-			</a>
-		</div>
-		<div class="col-xs-4 col-sm-2">
-			<a href="http://instagram.com/alykhank" target="_blank" id="instagram">
-				{% include fa.html icon="instagram" %}
-			</a>
-		</div>
-		<div class="col-xs-4 col-sm-2">
-			<a href="http://www.flickr.com/photos/alykhankanji" target="_blank" id="flickr">
-				{% include fa.html icon="flickr" %}
-			</a>
-		</div>
-	</div>
-</div>
+	</div><!-- container -->
+</div><!-- jumbotron -->
 <script>
 	mixpanel.track_links("#contact", "Social Link Click", {'Network': 'Contact'});
 	mixpanel.track_links("#linkedin", "Social Link Click", {'Network': 'LinkedIn'});
