@@ -1,21 +1,12 @@
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		</button>
-		<a class="navbar-brand visible-xs" href="/">Alykhan Kanji</a>
-	</div><!-- navbar-header -->
-	<div class="collapse navbar-collapse navbar-ex1-collapse">
-		<ul class="nav navbar-nav">
+<div class="navbar-container">
+	<nav class="navbar" role="navigation">
+		<ul class="nav nav-pills nav-justified">
 			<li><a href="/" id="nav-home">Home</a></li>
 			<li><a href="portfolio" id="nav-portfolio">Portfolio</a></li>
 			<li><a href="resume/resume.pdf" target="_blank" id="nav-resume">R&eacute;sum&eacute;</a></li>
 		</ul>
-	</div><!-- navbar-collapse -->
-</nav>
+	</nav>
+</div>
 <script>
 	mixpanel.track_links("#nav-home", "Nav Link Click", {'Page': 'Home'});
 	mixpanel.track_links("#nav-portfolio", "Nav Link Click", {'Page': 'Portfolio'});

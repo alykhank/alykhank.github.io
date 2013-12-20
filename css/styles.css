@@ -2,35 +2,28 @@ body {
 	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.navbar-brand, .subtitle {
+.subtitle {
 	font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.navbar-container {
+	width: 50%;
+	margin: auto;
+}
+
 .navbar {
-	margin: 20px 0;
-	box-shadow: none;
-	background: none;
-	border: none;
-}
-
-.navbar .navbar-nav {
-	display: inline-block;
-	float: none;
-}
-
-.navbar .navbar-collapse {
-	text-align: center;
-}
-
-.navbar-default .navbar-nav > li > a {
+	margin-top: 20px;
 	font-size: 1.5em;
-	color: #333;
 	text-transform: lowercase;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: black;
-	position: relative;
+.nav > li > a {
+	color: #333;
+}
+
+.nav > li > a:hover {
+	color: rgb(38,121,219);
+	background: none;
 	top: -1px;
 }
 
