@@ -45,6 +45,16 @@ body {
 	font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.thumbnail {
+	border: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.thumbnail:hover {
+	background: rgb(236,240,241);
+}
+
 .fa {
 	transition: color 0.4s ease;
 }
