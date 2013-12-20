@@ -7,12 +7,11 @@ body {
 }
 
 .navbar-container {
-	width: 50%;
+	width: 23em;
 	margin: auto;
 }
 
 .navbar {
-	margin-top: 20px;
 	font-size: 1.5em;
 	text-transform: lowercase;
 }
@@ -32,6 +31,9 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+	.navbar {
+		margin: 20px 0;
+	}
 	.jumbotron {
 		background: rgba(255, 255, 255, 0.8);
 		box-shadow: 0px 1px 2px #777;

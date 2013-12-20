@@ -7,8 +7,8 @@
 	{% endif %}
 </head>
 <body onload="mixpanel.track('Page View', {'Page Name': '{{ page.name }}', 'URL': window.location.href});">
+	{% include navbar.html %}
 	<div class="container">
-		{% include navbar.html %}
 		{{ content }}
 	</div><!-- container -->
 	<script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
