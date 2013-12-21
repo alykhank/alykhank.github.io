@@ -29,24 +29,11 @@
   github: https://github.com/alykhank/calculator
   thumbnail_tall: true
 
-- title: Goose Watch
-  caption: Displays goose nest sightings on the University of Waterloo campus.
-  thumbnail: goosewatch
-  github: https://github.com/alykhank/GooseWatch
-  thumbnail_tall: true
-
 - title: NextRide
   caption: Brampton Transit NextRide API.
   thumbnail: nextride
   live: http://nextride.alykhan.com
   github: https://github.com/alykhank/NextRide
-  thumbnail_tall: true
-
-- title: Locale
-  caption: A location-aware alarm.
-  thumbnail: locale
-  live: http://alykhan.com/locale/
-  github: https://github.com/alykhank/locale
   thumbnail_tall: true
 
 - title: Bus Pointer
@@ -59,9 +46,3 @@
   thumbnail: wac2011_thumb
   live: WAC2011/
   github: https://github.com/alykhank/wac2011
-
-- title: WAC 2010
-  caption: Website for World Affairs Conference 2010.
-  thumbnail: wac2010_thumb
-  live: WAC2010/
-  github: https://github.com/alykhank/wac2010
