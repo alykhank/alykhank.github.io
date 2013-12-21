@@ -1,11 +1,3 @@
-body {
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.subtitle {
-	font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
 .navbar-container {
 	width: 22.5em;
 	margin: auto;
@@ -19,6 +11,7 @@ body {
 
 .nav > li > a {
 	color: #333;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .nav > li > a:hover {
@@ -27,22 +20,33 @@ body {
 	top: -1px;
 }
 
+.jumbotron,
+.jumbotron .title,
+.jumbotron .subtitle,
+.thumbnail .thumbnail-title {
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .jumbotron {
 	background: none;
 }
 
-.jumbotron h1 {
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: bolder;
+.jumbotron .title {
 	font-size: 3em;
 }
 
-.jumbotron .lead {
-	font-size: 1.2em;
+.jumbotron .subtitle {
+	font-weight: lighter;
 }
 
-.section-title {
-	font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+.jumbotron .lead {
+	max-width: 40em;
+	margin: 20px auto;
+}
+
+.section-title,
+.thumbnail .caption {
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .thumbnail {
