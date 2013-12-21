@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 	{% include head.html %}
+	{% if page.url == '/resume.html' %}
+	<link rel="stylesheet" href="css/resume.css">
+	{% endif %}
 </head>
 <body onload="mixpanel.track('Page View', {'Page Name': '{{ page.name }}', 'URL': window.location.href});">
 	{% include navbar.html %}
