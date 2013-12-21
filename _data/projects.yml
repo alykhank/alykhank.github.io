@@ -1,3 +1,9 @@
+- title: Nspire
+  caption: The website of Nspire Innovation Network.
+  thumbnail: nspire
+  live: http://nspire.org
+  github: https://github.com/nspire/nspire
+
 - title: C3 Inspire
   caption: The website of C3 Inspire.
   thumbnail: c3inspire
@@ -35,11 +41,6 @@
   live: http://nextride.alykhan.com
   github: https://github.com/alykhank/NextRide
   thumbnail_tall: true
-
-- title: Bus Pointer
-  caption: Realtime nearby transit vehicle arrival times.
-  live: http://buspointer.alykhan.com
-  github: https://github.com/AliceYuan/LinkedinHackTransit
 
 - title: WAC 2011
   caption: Website for World Affairs Conference 2011.
