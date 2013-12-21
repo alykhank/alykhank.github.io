@@ -10,13 +10,6 @@
   live: http://c3inspire.com
   github: https://github.com/c3inspire/c3inspire.github.io
 
-- title: UW Menu
-  caption: Weekly menus for the University of Waterloo's on-campus eateries.
-  thumbnail: uwmenu
-  live: http://uwmenu.com
-  github: https://github.com/alykhank/FoodMenu
-  thumbnail_tall: true
-
 - title: Tunezout
   caption: Discover popular music.
   thumbnail: tunezout
@@ -28,6 +21,13 @@
   thumbnail: populate
   live: http://populate-mit.herokuapp.com
   github: https://github.com/alykhank/populate
+
+- title: UW Menu
+  caption: Weekly menus for the University of Waterloo's on-campus eateries.
+  thumbnail: uwmenu
+  live: http://uwmenu.com
+  github: https://github.com/alykhank/FoodMenu
+  thumbnail_tall: true
 
 - title: RPN Calculator
   caption: A programmable, graphing, Reverse Polish Notation calculator.
@@ -44,6 +44,6 @@
 
 - title: WAC 2011
   caption: World Affairs Conference 2011 website.
-  thumbnail: wac2011_thumb
+  thumbnail: wac2011
   live: WAC2011/
   github: https://github.com/alykhank/wac2011
