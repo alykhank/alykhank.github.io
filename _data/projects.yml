@@ -17,20 +17,20 @@
   github: https://github.com/alykhank/Tunezout
 
 - title: Populate
-  caption: Read interesting articles, listen to the conversation, take meaningful action.
+  caption: A newsreader with context.
   thumbnail: populate
   live: http://populate-mit.herokuapp.com
   github: https://github.com/alykhank/populate
 
 - title: UW Menu
-  caption: Weekly menus for the University of Waterloo's on-campus eateries.
+  caption: Weekly menus for UW’s on-campus eateries.
   thumbnail: uwmenu
   live: http://uwmenu.com
   github: https://github.com/alykhank/FoodMenu
   thumbnail_tall: true
 
-- title: RPN Calculator
-  caption: A programmable, graphing, Reverse Polish Notation calculator.
+- title: Calculator
+  caption: A programmable, graphing, RPN calculator.
   thumbnail: calculator
   github: https://github.com/alykhank/calculator
   thumbnail_tall: true

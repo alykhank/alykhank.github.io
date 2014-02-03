@@ -6,11 +6,13 @@
 		<div class="col-xs-6 col-sm-3">
 			<div class="thumbnail">
 				{% if p.thumbnail %}
-				<img src="img/{{ p.thumbnail }}.png" alt="{{ p.title }}" {% if p.thumbnail_tall %}width="75"{% endif %} class="img-responsive">
+				<div class="thumbnail-img">
+					<img src="img/{{ p.thumbnail }}.png" alt="{{ p.title }}" {% if p.thumbnail_tall %}width="75"{% endif %} class="img-responsive center-block">
+				</div>
 				{% endif %}
 				<div class="caption">
-					<h2 class="text-center thumbnail-title">{{ p.title }}</h2>
-					<p>{{ p.caption }}</p>
+					<h3 class="text-center thumbnail-title">{{ p.title }}</h3>
+					<p class="thumbnail-caption">{{ p.caption }}</p>
 					{% if p.live %}
 					<a href="{{ p.live }}" target="_blank" class="btn btn-success btn-block">Live</a>
 					{% endif %}
