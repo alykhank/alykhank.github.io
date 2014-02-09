@@ -10,8 +10,8 @@
 					<img src="img/{{ p.thumbnail }}.png" alt="{{ p.title }}" {% if p.thumbnail_tall %}width="75"{% endif %} class="img-responsive center-block">
 				</div>
 				{% endif %}
-				<div class="caption">
-					<h3 class="text-center thumbnail-title">{{ p.title }}</h3>
+				<div class="text-center caption">
+					<h3 class="thumbnail-title">{{ p.title }}</h3>
 					<p class="thumbnail-caption">{{ p.caption }}</p>
 					{% if p.live %}
 					<a href="{{ p.live }}" target="_blank" class="btn btn-success btn-block">Live</a>

@@ -64,12 +64,20 @@ a {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.thumbnail-img {
+		min-height: 11em;
+	}
+
 	.thumbnail-caption {
-		min-height: 4em;
+		min-height: 5em;
 	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.thumbnail-img {
+		min-height: 11em;
+	}
+
 	.thumbnail-caption {
 		min-height: 3em;
 	}
@@ -77,7 +85,7 @@ a {
 
 @media only screen and (min-width: 1200px) {
 	.thumbnail-img {
-		min-height: 12em;
+		min-height: 11em;
 	}
 
 	.thumbnail-caption {
