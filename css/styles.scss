@@ -1,3 +1,5 @@
+---
+---
 a {
 	color: rgb(38,121,219);
 }
@@ -33,19 +35,16 @@ a {
 
 .jumbotron {
 	background: none;
-}
-
-.jumbotron .title {
-	font-size: 3em;
-}
-
-.jumbotron .subtitle {
-	font-weight: lighter;
-}
-
-.jumbotron .lead {
-	max-width: 40em;
-	margin: 20px auto;
+	.title {
+		font-size: 3em;
+	}
+	.subtitle {
+		font-weight: lighter;
+	}
+	.lead {
+		max-width: 40em;
+		margin: 20px auto;
+	}
 }
 
 .section-title,
@@ -57,10 +56,9 @@ a {
 	border: none;
 	box-shadow: none;
 	border-radius: 0;
-}
-
-.thumbnail h3 {
-	font-size: 1.6em;
+	h3 {
+		font-size: 1.6em;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
