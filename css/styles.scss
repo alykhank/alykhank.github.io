@@ -24,12 +24,11 @@ a {
 .nav > li > a {
 	color: #333;
 	@include fontfam('Source Sans Pro');
-}
-
-.nav > li > a:hover {
-	color: $main-color;
-	background: none;
-	top: -1px;
+	&:hover {
+		color: $main-color;
+		background: none;
+		top: -1px;
+	}
 }
 
 .jumbotron,
@@ -67,7 +66,7 @@ a {
 	}
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) {
 	.thumbnail-img {
 		min-height: 11em;
 	}
@@ -77,21 +76,7 @@ a {
 	}
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-	.thumbnail-img {
-		min-height: 11em;
-	}
-
-	.thumbnail-caption {
-		min-height: 3em;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.thumbnail-img {
-		min-height: 11em;
-	}
-
+@media only screen and (min-width: 992px) {
 	.thumbnail-caption {
 		min-height: 3em;
 	}
@@ -110,10 +95,7 @@ a {
 			color: $main-color;
 		}
 	}
-}
-
-@media only screen and (min-width: 480px) {
-	.fa-stack {
+	@media only screen and (min-width: 480px) {
 		font-size: 2em;
 	}
 }
