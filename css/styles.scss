@@ -1,7 +1,13 @@
 ---
 ---
+$main-color: rgb(38,121,219);
+
+@mixin fontfam($font) {
+	font-family: $font, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 a {
-	color: rgb(38,121,219);
+	color: $main-color;
 }
 
 .navbar-container {
@@ -17,11 +23,11 @@ a {
 
 .nav > li > a {
 	color: #333;
-	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	@include fontfam('Source Sans Pro');
 }
 
 .nav > li > a:hover {
-	color: rgb(38,121,219);
+	color: $main-color;
 	background: none;
 	top: -1px;
 }
@@ -30,7 +36,7 @@ a {
 .jumbotron .title,
 .jumbotron .subtitle,
 .thumbnail .thumbnail-title {
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	@include fontfam('Raleway');
 }
 
 .jumbotron {
@@ -49,7 +55,7 @@ a {
 
 .section-title,
 .thumbnail .caption {
-	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	@include fontfam('Source Sans Pro');
 }
 
 .thumbnail {
@@ -97,15 +103,13 @@ a {
 
 .fa-stack {
 	font-size: 1.4em;
-	color: rgb(38,121,219);
-}
-
-.fa-stack:hover {
-	color: white;
-}
-
-.fa-stack:hover .fa-inverse {
-	color: rgb(38,121,219);
+	color: $main-color;
+	&:hover {
+		color: white;
+		.fa-inverse {
+			color: $main-color;
+		}
+	}
 }
 
 @media only screen and (min-width: 480px) {
