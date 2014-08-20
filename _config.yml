@@ -1,2 +1,2 @@
 name: Alykhan Kanji
-exclude: [README.md, LICENSE.md, CNAME, Gemfile, Gemfile.lock]
+exclude: [README.md, LICENSE.md, CNAME, Gemfile, Gemfile.lock, vendor]
