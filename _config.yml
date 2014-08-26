@@ -1,2 +1,9 @@
 name: Alykhan Kanji
 exclude: [README.md, LICENSE.md, CNAME, Gemfile, Gemfile.lock, vendor]
+defaults:
+  -
+    scope:
+      path: ""
+      type: "page"
+    values:
+      layout: "default"
