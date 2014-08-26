@@ -1,5 +1,6 @@
 name: Alykhan Kanji
 exclude: [README.md, LICENSE.md, CNAME, Gemfile, Gemfile.lock, vendor]
+permalink: blog/:categories/:year/:month/:day/:title/
 defaults:
   -
     scope:
@@ -7,3 +8,9 @@ defaults:
       type: "page"
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"
