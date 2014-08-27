@@ -1,0 +1,26 @@
+---
+---
+@mixin fontfam($font) {
+	font-family: $font, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+	max-width: 768px;
+	margin: auto;
+}
+
+.post-title {
+	@include fontfam('Raleway');
+}
+
+.post-date {
+	color: #9a9a9a;
+	font-size: 1.2em;
+	@include fontfam('Source Sans Pro');
+}
+
+.post-excerpt,
+.post-content {
+	font-size: 1.4em;
+	@include fontfam('PT Serif');
+}
