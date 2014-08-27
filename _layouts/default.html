@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	{% include head.html %}
-	{% if page.url == '/resume.html' %}
-	<link rel="stylesheet" href="css/resume.css">
-	{% endif %}
+  {% include head.html %}
+  {% if page.custom_css %}
+  <link rel="stylesheet" href="/css/{{ page.custom_css }}.css">
+  {% endif %}
 </head>
 <body onload="mixpanel.track('Page View', {'Page Name': '{{ page.name }}', 'URL': window.location.href});">
-	{% include navbar.html %}
-	<div class="container">
-		{{ content }}
-	</div>
-	{% include jslibs.html %}
-	{% include localscroll.html %}
+  {% include navbar.html %}
+  <div class="container">
+    {{ content }}
+  </div>
+  {% include jslibs.html %}
+  {% include localscroll.html %}
 </body>
 </html>
