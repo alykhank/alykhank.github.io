@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="/css/{{ page.custom_css }}.css">
   {% endif %}
 </head>
-<body onload="mixpanel.track('Page View', {'Page Name': '{{ page.name }}', 'URL': window.location.href});">
+<body onload="mixpanel.track('Page View', {'Page Name': '{{ page.pagename }}', 'URL': window.location.href});">
   {% include navbar.html %}
   <div class="container">
     {{ content }}
