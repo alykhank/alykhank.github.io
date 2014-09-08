@@ -5,12 +5,12 @@ defaults:
   -
     scope:
       path: ""
-      type: "page"
+      type: "pages"
     values:
       layout: "default"
   -
     scope:
       path: ""
-      type: "post"
+      type: "posts"
     values:
       layout: "post"
