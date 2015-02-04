@@ -55,7 +55,8 @@
 }
 @media print {
 	.resume {
-		margin-top: -1.8em;
-		width: 760px;
+		margin-top: -1em;
+		max-width: 95%;
+		font-size: 1.4em;
 	}
 }
