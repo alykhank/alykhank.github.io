@@ -2,44 +2,43 @@
 ---
 .resume {
 	padding: 0 40px 40px 40px;
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	max-width: 760px;
 	margin: auto;
 }
-.resume h1, .resume h3, .resume h4, .resume h5, .resume h6 {
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+.resume h1, .resume h2, .resume h3, .resume h4, .resume h5, .resume h6 {
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .resume h1, .resume h2 {
 	text-align: center;
 }
 .resume h1 {
 	margin-bottom: 0;
-	font-weight: bold;
+	font-weight: bolder;
 }
 .resume h2, .resume h5 {
 	margin: 0;
 }
 .resume h2 {
-	font-size: 1em;
-	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
 	font-weight: normal;
 }
 .resume h3 {
 	margin: 0.9em 0 0 0;
 	font-weight: bolder;
-	font-size: 0.9em;
+	font-size: 1.1em;
 }
 .resume h4 {
 	margin: 0.2em 0 0 0;
 	float: left;
 	font-weight: normal;
-	font-size: 0.9em;
+	font-size: 1em;
 }
 .resume h5 {
 	float: right;
 	font-weight: normal;
 	color: #666;
-	font-size: 0.7em;
+	font-size: 0.9em;
 }
 .resume a {
 	color: #348ac8;
@@ -51,7 +50,6 @@
 }
 .resume li {
 	clear: both;
-	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
 	margin-left: -1em;
 }
