@@ -17,14 +17,14 @@ a {
 
 .navbar {
 	margin: 0;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	text-transform: lowercase;
 }
 
 .nav > li > a {
 	color: #333;
 	padding: 8px 12px;
-	@include fontfam('Source Sans Pro');
+	@include fontfam('Oxygen');
 	&:hover {
 		color: $main-color;
 		background: none;
@@ -34,26 +34,26 @@ a {
 
 .jumbotron,
 .jumbotron .title,
-.jumbotron .subtitle,
 .thumbnail .thumbnail-title {
-	@include fontfam('Raleway');
+	@include fontfam('Oxygen');
 }
 
 .jumbotron {
 	background: none;
 	.title {
-		font-size: 3em;
-	}
-	.subtitle {
-		font-weight: lighter;
+		font-size: 4em;
 	}
 	.lead {
+		@include fontfam('Source Sans Pro');
 		max-width: 40em;
 		margin: 20px auto;
 	}
 }
 
-.section-title,
+.section-title {
+	@include fontfam('Oxygen');
+}
+
 .thumbnail .caption {
 	@include fontfam('Source Sans Pro');
 }
