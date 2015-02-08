@@ -4,11 +4,11 @@
   live: http://nspire.org
   github: https://github.com/nspire/nspire
 
-- title: C3 Inspire
-  caption: C3 Inspire website.
-  thumbnail: c3inspire
-  live: http://c3inspire.com
-  github: https://github.com/c3inspire/c3inspire.github.io
+- title: Linkbelt
+  caption: Linkbelt app website.
+  thumbnail: linkbelt
+  live: http://linkbelt.me
+  github: https://github.com/linkbelt
 
 - title: Tunezout
   caption: Discover popular music.
