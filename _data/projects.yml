@@ -10,6 +10,26 @@
   live: http://linkbelt.me
   github: https://github.com/linkbelt
 
+- title: UW Menu
+  caption: Weekly menus for UW’s on-campus eateries.
+  thumbnail: uwmenu
+  live: http://uwmenu.com
+  github: https://github.com/alykhank/FoodMenu
+  thumbnail_tall: true
+
+- title: Calculator
+  caption: iOS Reverse Polish Notation calculator.
+  thumbnail: calculator
+  github: https://github.com/alykhank/calculator
+  thumbnail_tall: true
+
+- title: NextRide
+  caption: Brampton Transit JSON API.
+  thumbnail: nextride
+  live: http://nextride.alykhan.com
+  github: https://github.com/alykhank/NextRide
+  thumbnail_tall: true
+
 - title: Tunezout
   caption: Discover popular music.
   thumbnail: tunezout
@@ -21,26 +41,6 @@
   thumbnail: populate
   live: http://populate-mit.herokuapp.com
   github: https://github.com/alykhank/populate
-
-- title: UW Menu
-  caption: Weekly menus for UW’s on-campus eateries.
-  thumbnail: uwmenu
-  live: http://uwmenu.com
-  github: https://github.com/alykhank/FoodMenu
-  thumbnail_tall: true
-
-- title: Calculator
-  caption: A programmable, graphing, RPN calculator.
-  thumbnail: calculator
-  github: https://github.com/alykhank/calculator
-  thumbnail_tall: true
-
-- title: NextRide
-  caption: Brampton Transit NextRide API.
-  thumbnail: nextride
-  live: http://nextride.alykhan.com
-  github: https://github.com/alykhank/NextRide
-  thumbnail_tall: true
 
 - title: WAC 2011
   caption: World Affairs Conference 2011 website.
