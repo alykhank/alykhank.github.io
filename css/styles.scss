@@ -11,18 +11,18 @@ a {
 }
 
 .navbar-container {
-	width: 26em;
+	width: 23em;
 	margin: auto;
 }
 
 .navbar {
 	margin: 0;
-	font-size: 1.5em;
+	font-size: 1.6em;
 }
 
 .nav > li > a {
 	color: #333;
-	padding: 16px 12px;
+	padding: 16px 6px;
 	@include fontfam('Oxygen');
 	&:hover {
 		color: $main-color;
@@ -35,7 +35,7 @@ a {
 }
 
 #nav-home {
-	padding: 8px 16px;
+	padding: 8px 8px;
 }
 
 .jumbotron,
@@ -54,6 +54,11 @@ a {
 		@include fontfam('Source Sans Pro');
 		max-width: 40em;
 		margin: 20px auto;
+	}
+	@media only screen and (max-width: 768px) {
+		.title {
+			font-size: 4em;
+		}
 	}
 }
 
