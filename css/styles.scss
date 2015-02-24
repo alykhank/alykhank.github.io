@@ -1,41 +1,69 @@
 ---
 ---
-$main-color: rgb(38,121,219);
+$link-color: rgb(38,121,219);
 
 @mixin fontfam($font) {
 	font-family: $font, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-a {
-	color: $main-color;
+@mixin css3-prefix($property, $value...) {
+	-webkit-#{$property}: #{$value};
+	-khtml-#{$property}: #{$value};
+	-moz-#{$property}: #{$value};
+	-ms-#{$property}: #{$value};
+	-o-#{$property}: #{$value};
+	#{$property}: #{$value};
 }
 
-.navbar-container {
-	width: 22em;
-	margin: auto;
+body {
+	padding-top: 80px;					// provide adequate space for fixed-top-navbar
+}
+
+a {
+	color: $link-color;
+	border-bottom: 1px solid transparent;
+	&:hover {
+		text-decoration: none;
+		@include css3-prefix(transition-property, border, color);
+		@include css3-prefix(transition, all .3s);
+		border-bottom: 1px solid;
+	}
 }
 
 .navbar {
-	margin: 0;
 	font-size: 1.6em;
+	background: white;
 }
 
-.nav > li > a {
-	color: #333;
-	padding: 16px 6px;
-	@include fontfam('Oxygen');
+.navbar-brand {
+	padding-top: 0;
+	padding-bottom: 0;
 	&:hover {
-		color: $main-color;
-		background: none;
-		text-decoration: underline;
-	}
-	&:focus {
-		background: none;
+		border-bottom: none;
 	}
 }
 
-#nav-home {
-	padding: 8px 0px;
+// center navbar on tablets and desktops
+@media only screen and (min-width: 768px) {
+	.navbar-default .navbar-nav {
+		width: 100%;
+		text-align: center;
+		> li {
+			float: none;
+			display: inline-block;
+		}
+	}
+}
+
+.navbar-default .navbar-nav {
+	> li > a {
+		color: #333;
+		@include fontfam('Oxygen');
+		border-bottom: none;
+		&:hover {
+			color: $link-color;
+		}
+	}
 }
 
 .jumbotron,
@@ -91,16 +119,22 @@ a {
 	}
 }
 
+.social-link {
+	&:hover {
+		border-bottom: none;
+	}
+}
+
 .fa {
 	transition: color 0.4s ease;
 }
 
 .fa-stack {
-	color: $main-color;
+	color: $link-color;
 	&:hover {
 		color: white;
 		.fa-inverse {
-			color: $main-color;
+			color: $link-color;
 		}
 	}
 }

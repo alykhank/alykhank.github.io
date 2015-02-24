@@ -1,5 +1,10 @@
 <script>
 	$(document).ready(function() {
-		$('.navbar').localScroll({'hash': true});
+		$('.navbar').localScroll({
+			'hash': true,
+			'onBefore': function() {
+				$('.navbar-collapse.collapse.in').collapse('hide');
+			}
+		});
 	});
 </script>

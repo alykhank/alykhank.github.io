@@ -1,17 +1,33 @@
-<div class="navbar-container">
-	<nav class="navbar">
-		<ul class="nav nav-pills">
-			<li>
-				<a href="/" id="nav-home">
-					<img src="/img/ak.png" alt="Home" width="48" height="48">
-				</a>
-			</li>
-			<li><a href="/#portfolio" id="nav-portfolio">Portfolio</a></li>
-			<li><a href="/blog/" id="nav-blog">Blog</a></li>
-			<li><a href="/resume/" id="nav-resume">R&eacute;sum&eacute;</a></li>
-		</ul>
-	</nav>
-</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primary-navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand visible-xs" href="/">
+				<img src="/img/ak.png" alt="Home" width="50" height="50">
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="primary-navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="hidden-xs">
+					<a href="/" id="nav-home">
+						<img src="/img/ak.png" alt="Home" width="50" height="50">
+					</a>
+				</li>
+				<li><a href="/#portfolio" id="nav-portfolio">Portfolio</a></li>
+				<li><a href="/blog/" id="nav-blog">Blog</a></li>
+				<li><a href="/resume/" id="nav-resume">R&eacute;sum&eacute;</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
 <script>
 	mixpanel.track_links("#nav-home", "Nav Link Click", {'Page': 'Home'});
 	mixpanel.track_links("#nav-portfolio", "Nav Link Click", {'Page': 'Portfolio'});
