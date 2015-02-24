@@ -3,59 +3,56 @@
 .resume {
 	padding: 0 40px 40px 40px;
 	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	max-width: 760px;
-	margin: auto;
-}
-.resume h1, .resume h2, .resume h3, .resume h4, .resume h5, .resume h6 {
-	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-.resume h1, .resume h2 {
-	text-align: center;
-}
-.resume h1 {
-	margin-bottom: 0;
-	font-weight: bolder;
-}
-.resume h2, .resume h5 {
-	margin: 0;
-}
-.resume h2 {
 	font-size: 1.2em;
-	font-weight: normal;
+	max-width: 1024px;
+	margin: auto;
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+	h1, h2 {
+		text-align: center;
+	}
+	h1 {
+		margin-bottom: 0;
+		font-weight: bolder;
+	}
+	h2, h5 {
+		margin: 0;
+	}
+	h2 {
+		font-weight: normal;
+	}
+	h3 {
+		margin: 0.9em 0 0 0;
+		font-weight: bolder;
+	}
+	h4 {
+		margin: 0.2em 0 0 0;
+		float: left;
+		font-weight: normal;
+	}
+	h5 {
+		float: right;
+		font-weight: normal;
+		color: #666;
+	}
+	a {
+		color: #348ac8;
+		text-decoration: none;
+	}
+	ul {
+		margin-top: 0;
+		margin-bottom: 0.5em;
+	}
+	li {
+		clear: both;
+		margin-left: -1em;
+	}
 }
-.resume h3 {
-	margin: 0.9em 0 0 0;
-	font-weight: bolder;
-	font-size: 1.1em;
-}
-.resume h4 {
-	margin: 0.2em 0 0 0;
-	float: left;
-	font-weight: normal;
-	font-size: 1em;
-}
-.resume h5 {
-	float: right;
-	font-weight: normal;
-	color: #666;
-	font-size: 0.9em;
-}
-.resume a {
-	color: #348ac8;
-	text-decoration: none;
-}
-.resume ul {
-	margin-top: 0;
-	margin-bottom: 0.5em;
-}
-.resume li {
-	clear: both;
-	font-size: 0.9em;
-	margin-left: -1em;
-}
+
 @media print {
 	.resume {
-		margin-top: -1em;
+		margin-top: -3em;
 		max-width: 95%;
 		font-size: 1.4em;
 	}
