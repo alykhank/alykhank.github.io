@@ -15,8 +15,9 @@ $link-color: rgb(38,121,219);
 	#{$property}: #{$value};
 }
 
+// provide adequate space for fixed-top-navbar
 body {
-	padding-top: 80px;					// provide adequate space for fixed-top-navbar
+	padding-top: 80px;
 }
 
 a {
@@ -32,7 +33,7 @@ a {
 
 .navbar {
 	font-size: 1.6em;
-	background: white;
+	background: #fff;
 }
 
 .navbar-brand {
@@ -55,14 +56,12 @@ a {
 	}
 }
 
-.navbar-default .navbar-nav {
-	> li > a {
-		color: #333;
-		@include fontfam('Oxygen');
-		border-bottom: none;
-		&:hover {
-			color: $link-color;
-		}
+.navbar-default .navbar-nav > li > a {
+	color: #333;
+	@include fontfam('Oxygen');
+	border-bottom: none;
+	&:hover {
+		color: $link-color;
 	}
 }
 
@@ -107,7 +106,6 @@ a {
 	.thumbnail-img {
 		min-height: 11em;
 	}
-
 	.thumbnail-caption {
 		min-height: 5em;
 	}
@@ -119,20 +117,18 @@ a {
 	}
 }
 
-.social-link {
-	&:hover {
-		border-bottom: none;
-	}
+.social-link:hover {
+	border-bottom: none;
 }
 
 .fa {
-	transition: color 0.4s ease;
+	transition: color .4s ease;
 }
 
 .fa-stack {
 	color: $link-color;
 	&:hover {
-		color: white;
+		color: #fff;
 		.fa-inverse {
 			color: $link-color;
 		}
