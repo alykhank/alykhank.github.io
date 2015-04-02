@@ -14,13 +14,13 @@
 }
 
 .post-date {
-	color: #9a9a9a;
-	font-size: 1.2em;
 	@include fontfam('Source Sans Pro');
+	font-size: 1.2em;
+	color: #9a9a9a;
 }
 
 .post-excerpt,
 .post-content {
-	font-size: 1.4em;
 	@include fontfam('PT Serif');
+	font-size: 1.4em;
 }

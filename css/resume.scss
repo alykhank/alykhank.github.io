@@ -1,11 +1,11 @@
 ---
 ---
 .resume {
+	max-width: 1024px;
 	padding: 0 40px 40px 40px;
+	margin: auto;
 	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.2em;
-	max-width: 1024px;
-	margin: auto;
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	}
@@ -27,8 +27,8 @@
 		font-weight: bolder;
 	}
 	h4 {
-		margin: 0.2em 0 0 0;
 		float: left;
+		margin: 0.2em 0 0 0;
 		font-weight: normal;
 	}
 	h5 {
@@ -45,8 +45,8 @@
 		margin-bottom: 0.5em;
 	}
 	li {
-		clear: both;
 		margin-left: -1em;
+		clear: both;
 	}
 }
 
