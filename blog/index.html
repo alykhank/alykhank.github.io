@@ -8,5 +8,6 @@ custom_css: blog
   <p class="post-date">{{ post.date | date_to_string }}</p>
   <div class="post-excerpt">
     {{ post.excerpt }}
+    <a href="{{ post.url }}">Continue reading &rightarrow;</a>
   </div>
 {% endfor %}
