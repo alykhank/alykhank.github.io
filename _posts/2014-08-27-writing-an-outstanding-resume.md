@@ -1,5 +1,6 @@
 ---
 title: Writing an Outstanding Résumé
+tags: résumé
 ---
 <blockquote>
   <p>Being strikingly different is sometimes just a matter of doing what everyone ought to do, and then doing it a bit better.</p>

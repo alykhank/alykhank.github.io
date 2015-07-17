@@ -1,5 +1,6 @@
 ---
 title: SSH Configuration
+tags: secure-shell devops
 ---
 If you use [OpenSSH](http://www.openssh.com) to connect to [SSH](https://tools.ietf.org/html/rfc4251) servers on a regular basis, you may benefit from using an [SSH configuration file](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man5/ssh_config.5). This will help you to shorten long commands:
 {% highlight bash %}
