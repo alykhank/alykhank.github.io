@@ -3,134 +3,134 @@
 $link-color: rgb(38,121,219);
 
 @mixin fontfam($font) {
-	font-family: $font, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: $font, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @mixin css3-prefix($property, $value...) {
-	-webkit-#{$property}: #{$value};
-	-khtml-#{$property}: #{$value};
-	-moz-#{$property}: #{$value};
-	-ms-#{$property}: #{$value};
-	-o-#{$property}: #{$value};
-	#{$property}: #{$value};
+  -webkit-#{$property}: #{$value};
+  -khtml-#{$property}: #{$value};
+  -moz-#{$property}: #{$value};
+  -ms-#{$property}: #{$value};
+  -o-#{$property}: #{$value};
+  #{$property}: #{$value};
 }
 
 // provide adequate space for fixed-top-navbar
 body {
-	padding-top: 80px;
+  padding-top: 80px;
 }
 
 a {
-	color: $link-color;
-	border-bottom: 1px solid transparent;
-	&:hover {
-		text-decoration: none;
-		border-bottom: 1px solid;
-		@include css3-prefix(transition, all .3s);
-		@include css3-prefix(transition-property, border, color);
-	}
+  color: $link-color;
+  border-bottom: 1px solid transparent;
+  &:hover {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    @include css3-prefix(transition, all .3s);
+    @include css3-prefix(transition-property, border, color);
+  }
 }
 
 .navbar {
-	font-size: 1.6em;
-	background: #fff;
+  font-size: 1.6em;
+  background: #fff;
 }
 
 .navbar-brand {
-	padding-top: 0;
-	padding-bottom: 0;
-	&:hover {
-		border-bottom: none;
-	}
+  padding-top: 0;
+  padding-bottom: 0;
+  &:hover {
+    border-bottom: none;
+  }
 }
 
 // center navbar on tablets and desktops
 @media only screen and (min-width: 768px) {
-	.navbar-default .navbar-nav {
-		width: 100%;
-		text-align: center;
-		> li {
-			float: none;
-			display: inline-block;
-		}
-	}
+  .navbar-default .navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
 }
 
 .navbar-default .navbar-nav > li > a {
-	@include fontfam('Oxygen');
-	color: #333;
-	border-bottom: none;
-	&:hover {
-		color: $link-color;
-	}
+  @include fontfam('Oxygen');
+  color: #333;
+  border-bottom: none;
+  &:hover {
+    color: $link-color;
+  }
 }
 
 .jumbotron,
 .jumbotron .title,
 .section-title,
 .thumbnail .thumbnail-title {
-	@include fontfam('Oxygen');
+  @include fontfam('Oxygen');
 }
 
 .jumbotron {
-	background: none;
-	.title {
-		font-size: 6em;
-	}
-	.lead {
-		max-width: 40em;
-		margin: 20px auto;
-		@include fontfam('Source Sans Pro');
-	}
-	@media only screen and (max-width: 767px) {
-		.title {
-			font-size: 2.7em;
-		}
-	}
+  background: none;
+  .title {
+    font-size: 6em;
+  }
+  .lead {
+    max-width: 40em;
+    margin: 20px auto;
+    @include fontfam('Source Sans Pro');
+  }
+  @media only screen and (max-width: 767px) {
+    .title {
+      font-size: 2.7em;
+    }
+  }
 }
 
 .thumbnail .caption {
-	@include fontfam('Source Sans Pro');
+  @include fontfam('Source Sans Pro');
 }
 
 .thumbnail {
-	border: none;
-	border-radius: 0;
-	box-shadow: none;
-	h3 {
-		font-size: 1.6em;
-	}
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  h3 {
+    font-size: 1.6em;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-	.thumbnail-img {
-		min-height: 11em;
-	}
-	.thumbnail-caption {
-		min-height: 5em;
-	}
+  .thumbnail-img {
+    min-height: 11em;
+  }
+  .thumbnail-caption {
+    min-height: 5em;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-	.thumbnail-caption {
-		min-height: 3em;
-	}
+  .thumbnail-caption {
+    min-height: 3em;
+  }
 }
 
 .social-link:hover {
-	border-bottom: none;
+  border-bottom: none;
 }
 
 .fa {
-	transition: color .4s ease;
+  transition: color .4s ease;
 }
 
 .fa-stack {
-	color: $link-color;
-	&:hover {
-		color: #fff;
-		.fa-inverse {
-			color: $link-color;
-		}
-	}
+  color: $link-color;
+  &:hover {
+    color: #fff;
+    .fa-inverse {
+      color: $link-color;
+    }
+  }
 }

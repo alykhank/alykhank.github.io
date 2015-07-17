@@ -1,59 +1,59 @@
 ---
 ---
 .resume {
-	max-width: 1024px;
-	padding: 0 40px 40px 40px;
-	margin: auto;
-	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 1.2em;
-	h1, h2, h3, h4, h5, h6 {
-		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	}
-	h1, h2 {
-		text-align: center;
-	}
-	h1 {
-		margin-bottom: 0;
-		font-weight: bolder;
-	}
-	h2, h5 {
-		margin: 0;
-	}
-	h2 {
-		font-weight: normal;
-	}
-	h3 {
-		margin: 0.9em 0 0 0;
-		font-weight: bolder;
-	}
-	h4 {
-		float: left;
-		margin: 0.2em 0 0 0;
-		font-weight: normal;
-	}
-	h5 {
-		float: right;
-		font-weight: normal;
-		color: #666;
-	}
-	a {
-		color: #348ac8;
-		text-decoration: none;
-	}
-	ul {
-		margin-top: 0;
-		margin-bottom: 0.5em;
-	}
-	li {
-		margin-left: -1em;
-		clear: both;
-	}
+  max-width: 1024px;
+  padding: 0 40px 40px 40px;
+  margin: auto;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  h1, h2 {
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 0;
+    font-weight: bolder;
+  }
+  h2, h5 {
+    margin: 0;
+  }
+  h2 {
+    font-weight: normal;
+  }
+  h3 {
+    margin: 0.9em 0 0 0;
+    font-weight: bolder;
+  }
+  h4 {
+    float: left;
+    margin: 0.2em 0 0 0;
+    font-weight: normal;
+  }
+  h5 {
+    float: right;
+    font-weight: normal;
+    color: #666;
+  }
+  a {
+    color: #348ac8;
+    text-decoration: none;
+  }
+  ul {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+  li {
+    margin-left: -1em;
+    clear: both;
+  }
 }
 
 @media print {
-	.resume {
-		margin-top: -3em;
-		max-width: 95%;
-		font-size: 1.4em;
-	}
+  .resume {
+    margin-top: -3em;
+    max-width: 95%;
+    font-size: 1.4em;
+  }
 }

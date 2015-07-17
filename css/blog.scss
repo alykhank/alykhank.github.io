@@ -1,27 +1,27 @@
 ---
 ---
 @mixin fontfam($font) {
-	font-family: $font, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: $font, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .container {
-	max-width: 768px;
-	margin: auto;
+  max-width: 768px;
+  margin: auto;
 }
 
 .post-title {
-	@include fontfam('Oxygen');
-	margin-top: 2em;
+  @include fontfam('Oxygen');
+  margin-top: 2em;
 }
 
 .post-date {
-	@include fontfam('Source Sans Pro');
-	font-size: 1.2em;
-	color: #9a9a9a;
+  @include fontfam('Source Sans Pro');
+  font-size: 1.2em;
+  color: #9a9a9a;
 }
 
 .post-excerpt,
 .post-content {
-	@include fontfam('PT Serif');
-	font-size: 1.4em;
+  @include fontfam('PT Serif');
+  font-size: 1.4em;
 }
