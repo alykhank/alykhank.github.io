@@ -134,3 +134,13 @@ a {
     }
   }
 }
+
+.footer {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  @include fontfam('Oxygen');
+  color: #aaa;
+  a {
+    color: #aaa;
+  }
+}
