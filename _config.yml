@@ -14,5 +14,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-gems:
-  - jekyll_feed
