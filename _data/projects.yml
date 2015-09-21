@@ -1,3 +1,9 @@
+- title: Tailor
+  caption: Static analyzer for Swift.
+  thumbnail: tailor
+  live: http://tailor.sh
+  github: https://github.com/sleekbyte/tailor
+
 - title: Nspire
   caption: Nspire Innovation Network website.
   thumbnail: nspire
@@ -41,9 +47,3 @@
   thumbnail: populate
   live: http://populate-mit.herokuapp.com
   github: https://github.com/alykhank/populate
-
-- title: WAC 2011
-  caption: World Affairs Conference 2011 website.
-  thumbnail: wac2011
-  live: http://alykhan.com/wac2011/
-  github: https://github.com/alykhank/wac2011
