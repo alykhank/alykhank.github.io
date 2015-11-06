@@ -16,3 +16,5 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+sass:
+    style: compressed
