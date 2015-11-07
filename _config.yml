@@ -1,7 +1,7 @@
 name: Alykhan Kanji
 description: The website of Alykhan Kanji. See Alykhan's social media profiles and professional portfolio.
 url: http://alykhan.com
-exclude: [README.md, LICENSE.md, CNAME, Gemfile, Gemfile.lock, vendor]
+exclude: [README.md, LICENSE.md, CNAME, Gemfile, Gemfile.lock, vendor, script]
 permalink: blog/:categories/:year/:month/:day/:title/
 defaults:
   -
