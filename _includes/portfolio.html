@@ -3,11 +3,11 @@
   <br>
   <div class="row">
     {% for p in site.data.projects %}
-      <div class="col-xs-6 col-sm-3">
+      <div class="col-xs-12 col-sm-4">
         <div class="thumbnail">
           {% if p.thumbnail %}
             <div class="thumbnail-img">
-              <img src="img/{{ p.thumbnail }}.png" alt="{{ p.title }}" {% if p.thumbnail_tall %}width="75"{% endif %} class="img-responsive center-block">
+              <img src="img/{{ p.thumbnail }}.png" alt="{{ p.title }}" {% if p.thumbnail_tall %}width="100"{% endif %} class="img-responsive center-block">
             </div>
           {% endif %}
           <div class="text-center caption">
@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-      {% cycle nil, '<div class="clearfix visible-xs"></div>', nil, '<div class="clearfix"></div>' %}
+      {% cycle '<div class="clearfix visible-xs"></div>', '<div class="clearfix visible-xs"></div>', '<div class="clearfix"></div>' %}
     {% endfor %}
   </div>
 </section>
