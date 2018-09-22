@@ -1,7 +1,6 @@
-# [Alykhan.com](http://alykhan.com)
+# [Alykhan.com](https://alykhan.com)
 
 [![Build Status](https://travis-ci.org/alykhank/alykhank.github.io.svg?branch=master)](https://travis-ci.org/alykhank/alykhank.github.io)
-[![Dependency Status](https://gemnasium.com/alykhank/alykhank.github.io.svg)](https://gemnasium.com/alykhank/alykhank.github.io)
 
 The website of Alykhan Kanji. See Alykhan's social media profiles and professional portfolio.
 
