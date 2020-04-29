@@ -1,7 +1,5 @@
 ---
 ---
-$link-color: rgb(38,121,219);
-
 @mixin fontfam($font) {
   font-family: $font, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -15,15 +13,35 @@ $link-color: rgb(38,121,219);
   #{$property}: #{$value};
 }
 
+:root {
+  color-scheme: light dark;
+  --body-bg: #fff;
+  --body-color: #333;
+  --link-color: rgb(38,121,219);
+  --link-color-hover: rgb(35,82,124);
+  --navbar-border-color: #e7e7e7;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg: #333;
+    --body-color: #ccc;
+    --link-color-hover: var(--link-color);
+    --navbar-border-color: #181818;
+  }
+}
+
 // provide adequate space for fixed-top-navbar
 body {
   padding-top: 80px;
+  background: var(--body-bg);
+  color: var(--body-color);
 }
 
 a {
-  color: $link-color;
+  color: var(--link-color);
   border-bottom: 1px solid transparent;
   &:hover {
+    color: var(--link-color-hover);
     text-decoration: none;
     border-bottom: 1px solid;
     @include css3-prefix(transition, all .3s);
@@ -33,7 +51,14 @@ a {
 
 .navbar {
   font-size: 1.6em;
-  background: #fff;
+  background: var(--body-bg);
+}
+
+.navbar-default {
+  border-color: var(--navbar-border-color);
+  .navbar-collapse {
+    border-color: var(--navbar-border-color);
+  }
 }
 
 .navbar-brand {
@@ -58,10 +83,10 @@ a {
 
 .navbar-default .navbar-nav > li > a {
   @include fontfam('Oxygen');
-  color: #333;
+  color: var(--body-color);
   border-bottom: none;
   &:hover {
-    color: $link-color;
+    color: var(--link-color);
   }
 }
 
@@ -91,9 +116,11 @@ a {
 
 .thumbnail .caption {
   @include fontfam('Source Sans Pro');
+  color: var(--body-color);
 }
 
 .thumbnail {
+  background: var(--body-bg);
   border: none;
   border-radius: 0;
   box-shadow: none;
@@ -126,11 +153,11 @@ a {
 }
 
 .fa-stack {
-  color: $link-color;
+  color: var(--link-color);
   &:hover {
     color: #fff;
     .fa-inverse {
-      color: $link-color;
+      color: var(--link-color);
     }
   }
 }
