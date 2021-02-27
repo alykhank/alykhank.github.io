@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html lang="en" prefix="og: https://ogp.me/ns#">
 <head>
   {% include head.html %}
-  <link rel="stylesheet" href="/css/blog.css">
+  <link rel="stylesheet" href="{{ site.url }}/css/blog.css">
 </head>
 <body onload="mixpanel.track('Page View', {'Page Name': '{{ page.title }}', 'URL': window.location.href});">
   {% include navbar.html %}

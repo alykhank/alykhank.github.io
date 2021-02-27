@@ -7,7 +7,7 @@
         <div class="thumbnail">
           {% if p.thumbnail %}
             <div class="thumbnail-img">
-              <img src="img/{{ p.thumbnail }}.png" alt="{{ p.title }}" {% if p.thumbnail_tall %}width="100"{% endif %} class="img-responsive center-block">
+              <img src="{{ site.url }}/img/{{ p.thumbnail }}.png" alt="{{ p.title }}" {% if p.thumbnail_tall %}width="100"{% endif %} class="img-responsive center-block">
             </div>
           {% endif %}
           <div class="text-center caption">
