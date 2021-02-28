@@ -30,6 +30,17 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+// Disable smooth scrolling when users have prefers-reduced-motion enabled
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 // provide adequate space for fixed-top-navbar
 body {
   padding-top: 80px;
@@ -160,6 +171,10 @@ a {
       color: var(--link-color);
     }
   }
+}
+
+#portfolio {
+  scroll-margin-top: 8em;
 }
 
 .footer {
